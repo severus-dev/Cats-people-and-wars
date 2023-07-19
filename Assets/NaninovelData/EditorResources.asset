@@ -182,3 +182,12 @@ MonoBehaviour:
     - name: test
       pathPrefix: Scripts
       guid: 488800982fd8a4e4cb8de22497dc39cb
+    - name: NewScript
+      pathPrefix: Scripts
+      guid: e567b59629993584288876e54d7d69e4
+    - name: 12
+      pathPrefix: Scripts
+      guid: 061d88267b06b244d8f61aa38ab872e1
+    - name: 123
+      pathPrefix: Scripts
+      guid: a87e2064752065046aece9f2981c2318
