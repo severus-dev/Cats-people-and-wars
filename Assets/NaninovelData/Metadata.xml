@@ -252,10 +252,6 @@
         &lt;Path&gt;Scene 1&lt;/Path&gt;
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
-      &lt;Resource&gt;
-        &lt;Path&gt;Scene2&lt;/Path&gt;
-        &lt;Type&gt;Scripts&lt;/Type&gt;
-      &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants /&gt;
     &lt;Variables /&gt;

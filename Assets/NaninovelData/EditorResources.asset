@@ -179,6 +179,3 @@ MonoBehaviour:
     - name: Scene 1
       pathPrefix: Scripts
       guid: 3c5b80c03bd2ab64da2921abb47f5e7e
-    - name: Scene2
-      pathPrefix: Scripts
-      guid: 2386387b33d21b5458bbe3074e082e98
