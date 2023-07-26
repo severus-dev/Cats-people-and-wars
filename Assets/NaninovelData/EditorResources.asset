@@ -171,11 +171,122 @@ MonoBehaviour:
     - name: MainMenu
       pathPrefix: Backgrounds/MainBackground
       guid: f1b63047be0756d418e7d595d1cc8aa4
+    - name: BlackBg
+      pathPrefix: Backgrounds/MainBackground
+      guid: 066e0ddc29ca8a448a89ddb61b9a5f62
+    - name: Sc1_Kitchen
+      pathPrefix: Backgrounds/MainBackground
+      guid: fff0275ddade0b842af490bcf3a91113
+    - name: Sc1_LivRoom
+      pathPrefix: Backgrounds/MainBackground
+      guid: a4a87a3b09a60164ba513987f22255b0
+    - name: Sc2_LivRoom
+      pathPrefix: Backgrounds/MainBackground
+      guid: bafc39b4ec4c53743a9646cd8fa60a4b
+    - name: Sc2_LivRoom_2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2232653a6494cfb478d9e342f8c11871
+    - name: Sc3_Kitchen_1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3087021e227347b438cbb7e75a75eb1d
+    - name: Sc3_Kitchen_3_1_TWOeggs
+      pathPrefix: Backgrounds/MainBackground
+      guid: f0799def667c3844ead188a04fc296f5
+    - name: Sc3_Kitchen_3_2_ONEegg
+      pathPrefix: Backgrounds/MainBackground
+      guid: 415fdbeff7adae94b937cb8636d365d8
+    - name: Sc5_Outside1_Tree
+      pathPrefix: Backgrounds/MainBackground
+      guid: 5ed385c14b2eaf54ab6120be8afbbca3
+    - name: Sc5_Outside2_1_TWOvasons
+      pathPrefix: Backgrounds/MainBackground
+      guid: a51a8a835619be94f8a55783107ba12f
+    - name: Sc5_Outside2_2_ONEvason
+      pathPrefix: Backgrounds/MainBackground
+      guid: 1fbfe1c8b13dc5248b8686b36a87a117
+    - name: Sc5_Outside3_inBushes
+      pathPrefix: Backgrounds/MainBackground
+      guid: f3144ee98ea29554dba7adc8398bda13
+    - name: Sc6_Basement
+      pathPrefix: Backgrounds/MainBackground
+      guid: 751cfeebbeaf7e742bf03dbcbbca8470
+    - name: Sc8_LivRoom_Ending
+      pathPrefix: Backgrounds/MainBackground
+      guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
   - Id: Scripts
     Resources:
     - name: 
       pathPrefix: Scripts
       guid: 
-    - name: Scene 1
+    - name: Scene1
       pathPrefix: Scripts
       guid: 3c5b80c03bd2ab64da2921abb47f5e7e
+    - name: Scene2
+      pathPrefix: Scripts
+      guid: 9ea9c81334d96db49a5ed9b667be3d3c
+  - Id: Unlockables
+    Resources:
+    - name: CG/Sc1_Kitchen
+      pathPrefix: Unlockables
+      guid: fff0275ddade0b842af490bcf3a91113
+    - name: CG/Sc1_LivRoom
+      pathPrefix: Unlockables
+      guid: a4a87a3b09a60164ba513987f22255b0
+    - name: CG/Sc2_LivRoom
+      pathPrefix: Unlockables
+      guid: bafc39b4ec4c53743a9646cd8fa60a4b
+    - name: CG/Sc2_LivRoom_2
+      pathPrefix: Unlockables
+      guid: 2232653a6494cfb478d9e342f8c11871
+    - name: CG/Sc3_Kitchen_1
+      pathPrefix: Unlockables
+      guid: 3087021e227347b438cbb7e75a75eb1d
+    - name: CG/Sc3_Kitchen_3_1_TWOeggs
+      pathPrefix: Unlockables
+      guid: f0799def667c3844ead188a04fc296f5
+    - name: CG/Sc3_Kitchen_3_2_ONEegg
+      pathPrefix: Unlockables
+      guid: 415fdbeff7adae94b937cb8636d365d8
+    - name: CG/Sc5_Outside1_Tree
+      pathPrefix: Unlockables
+      guid: 5ed385c14b2eaf54ab6120be8afbbca3
+    - name: CG/Sc5_Outside2_1_TWOvasons
+      pathPrefix: Unlockables
+      guid: a51a8a835619be94f8a55783107ba12f
+    - name: CG/Sc5_Outside2_2_ONEvason
+      pathPrefix: Unlockables
+      guid: 1fbfe1c8b13dc5248b8686b36a87a117
+    - name: CG/Sc5_Outside3_inBushes
+      pathPrefix: Unlockables
+      guid: f3144ee98ea29554dba7adc8398bda13
+    - name: CG/Sc6_Basement
+      pathPrefix: Unlockables
+      guid: 751cfeebbeaf7e742bf03dbcbbca8470
+    - name: CG/Sc8_LivRoom_Ending
+      pathPrefix: Unlockables
+      guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
+  - Id: Characters/192f43da-fec9-4384-98f7-ae3ac6b8574c
+    Resources:
+    - name: def
+      pathPrefix: Characters/Chaos
+      guid: 9fafe9669cbb63249a9fba90d28c0d97
+  - Id: Characters/9699334a-eacd-4e31-aa0b-1e1b316fd94d
+    Resources:
+    - name: def
+      pathPrefix: Characters/Gruzd
+      guid: 36f8de74a43b3b44b8df7a9d0ad1c8ac
+  - Id: Characters/e74c16bd-2b42-499a-bd44-e2e1504064ea
+    Resources:
+    - name: def
+      pathPrefix: Characters/Night
+      guid: 73ae73448656e9145b7106c2cd32f2e4
+  - Id: Characters/ca835534-926b-4fe0-bc7e-88581258f464
+    Resources:
+    - name: def
+      pathPrefix: Characters/Day
+      guid: ebc6fee91e18246429bb956755def864
+  - Id: Characters/eb6fe350-9968-4f0a-8209-00fb63e5ecd1
+    Resources:
+    - name: def
+      pathPrefix: Characters/Counsil
+      guid: c0acd118d72245346b15a86cc44e83be
