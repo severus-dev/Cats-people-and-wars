@@ -1,13 +1,7 @@
 @back BlackBg
 ;@lock CG/Sc1_Kitchen
 
-@choice "ВЫБОР 1"
-@choice "ВЫБОР 2"
-@stop
-@print test
-
 *Звуки цикад. Кроки взуття без каблуків по асфальту*
-
 
 @bgm Room1
 Ви колись думали про те, в чому головне питання життя? 
@@ -30,8 +24,6 @@
 
 @back Sc1_Kitchen
 @unlock CG/Sc1_Kitchen
-
-
 
 *Тікання годинника*
 
@@ -79,11 +71,35 @@
 Хоча — яка різниця? Головне те, що зараз вони зі мною.
 І судячи з того, як Дряпа настирливо треться об мої ноги, а Пушок гіпнотизує поглядом, вони точно чогось від мене хочуть.
 
-@choice "Насипати корм"
-@choice "Налити води"
+@set feed=0
+@set water=0
+@goto .FeedAndWater
 
+#FeedAndWater
+
+
+@choice "Насипати корм" if:feed=0 goto:.FeedThx
+@choice "Налити води" if:water=0 goto:.WaterThx
 @stop
+
+#Check
+@if feed==1&&water=1
+    @goto .Feeded
+@else 
+    @goto .FeedAndWater 
+
+#WaterThx
+@set water=1
 Пушок: *няв*
+@goto .Check
+#FeedThx
+@set feed=1
+Дряпа: Маау…
+@goto .Check
+
+
+#Feeded
+
 
 Дряпа вдячно муркає, треться об мою ногу і йде жерти.
 Пушок мружиться, а потім неспішно підходить до тарілки.
