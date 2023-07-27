@@ -245,7 +245,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CG GALLERY
+  m_Text: "\u0413\u0430\u043B\u0435\u0440\u0435\u044F"
 --- !u!114 &114674709035610644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: DefaultUI
   key: CGGallery.Title
-  defaultValue: CG GALLERY
+  defaultValue: "\u0413\u0430\u043B\u0435\u0440\u0435\u044F"
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -603,9 +603,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'RETURN
-
-'
+  m_Text: "\u041D\u0430\u0437\u0430\u0434"
 --- !u!114 &6436618579410522592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: DefaultUI
   key: General.Return
-  defaultValue: RETURN
+  defaultValue: "\u041D\u0430\u0437\u0430\u0434"
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
