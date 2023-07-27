@@ -170,7 +170,7 @@ MonoBehaviour:
     Resources:
     - name: 'MainMenuBackground '
       pathPrefix: Backgrounds/MainBackground
-      guid: f1b63047be0756d418e7d595d1cc8aa4
+      guid: dc19bb7095b07c24dabb32142defc049
     - name: BlackBg
       pathPrefix: Backgrounds/MainBackground
       guid: 066e0ddc29ca8a448a89ddb61b9a5f62
@@ -221,6 +221,9 @@ MonoBehaviour:
     - name: Scene2
       pathPrefix: Scripts
       guid: 9ea9c81334d96db49a5ed9b667be3d3c
+    - name: Scene3
+      pathPrefix: Scripts
+      guid: 0a448b3cc549e6a40b100a4d233e5afb
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
@@ -267,48 +270,162 @@ MonoBehaviour:
     - name: def
       pathPrefix: Characters/Chaos
       guid: 9fafe9669cbb63249a9fba90d28c0d97
-    - name: mad
+    - name: sleepy
       pathPrefix: Characters/Chaos
-      guid: 
+      guid: ca996c9fc471f4649ba482a705c9ca07
+    - name: smile
+      pathPrefix: Characters/Chaos
+      guid: dfd6a383c246c3b42b5646c5a36560b0
+    - name: tricky
+      pathPrefix: Characters/Chaos
+      guid: 350cfbe9f36f968448cfb46eb13635bc
+    - name: upset
+      pathPrefix: Characters/Chaos
+      guid: 942375318dbf26b478462caf2b905d72
   - Id: Characters/9699334a-eacd-4e31-aa0b-1e1b316fd94d
     Resources:
     - name: def
       pathPrefix: Characters/Gruzd
       guid: 36f8de74a43b3b44b8df7a9d0ad1c8ac
+    - name: agressive
+      pathPrefix: Characters/Gruzd
+      guid: ddaeadc5ed6f12741852e765316ee540
+    - name: pockerface
+      pathPrefix: Characters/Gruzd
+      guid: 744fbaec71aaf65438c1710e4b58675c
+    - name: sad
+      pathPrefix: Characters/Gruzd
+      guid: 7f8c657220508b042939c1b202985143
+    - name: smile
+      pathPrefix: Characters/Gruzd
+      guid: 0a9fa27186b6d644b81d8772071aa279
+    - name: surprised
+      pathPrefix: Characters/Gruzd
+      guid: 798e3073384b5b64a812fe910f09bf6d
   - Id: Characters/e74c16bd-2b42-499a-bd44-e2e1504064ea
     Resources:
     - name: def
       pathPrefix: Characters/Night
       guid: 73ae73448656e9145b7106c2cd32f2e4
+    - name: cat
+      pathPrefix: Characters/Night
+      guid: 4cb1f0373bbb1e6469acaf8219daa2e6
+    - name: angry
+      pathPrefix: Characters/Night
+      guid: 5aba53884e63d77469c8195a01aa7ca4
+    - name: interesting
+      pathPrefix: Characters/Night
+      guid: 95355f7866d43ac4b9c93c9d6604420f
+    - name: smile
+      pathPrefix: Characters/Night
+      guid: af4383fcc1b501b4e9f4581175e291cc
+    - name: thinking
+      pathPrefix: Characters/Night
+      guid: 80669d37f9f7f3047b81bfc6095b04f7
   - Id: Characters/ca835534-926b-4fe0-bc7e-88581258f464
     Resources:
     - name: def
       pathPrefix: Characters/Day
       guid: ebc6fee91e18246429bb956755def864
+    - name: blitchy
+      pathPrefix: Characters/Day
+      guid: e1dea77302480e24aab61b7ec5c146ec
+    - name: blinked
+      pathPrefix: Characters/Day
+      guid: 8a8a60fb1fa82114b9ca1ee7f8a30d92
+    - name: cat
+      pathPrefix: Characters/Day
+      guid: d55ed0aaceacdae42b8c4756791f1b0a
+    - name: interesting
+      pathPrefix: Characters/Day
+      guid: 373a20ea45b52d3459c6f32913dd86e4
+    - name: meh
+      pathPrefix: Characters/Day
+      guid: ae607d3beec14404f89ecff14c6318e9
+    - name: sleepy
+      pathPrefix: Characters/Day
+      guid: 51b9025570abbc7429ab118d33f3bca2
+    - name: surprised
+      pathPrefix: Characters/Day
+      guid: edfa9b9985a3d8341a99a78e1dd10edd
   - Id: Characters/eb6fe350-9968-4f0a-8209-00fb63e5ecd1
     Resources:
     - name: def
       pathPrefix: Characters/Counsil
       guid: c0acd118d72245346b15a86cc44e83be
-  - Id: Characters/2f220e58-a155-46a3-8d0c-78b5d3d9b7b9
-    Resources: []
   - Id: Audio
     Resources:
-    - name: Street
+    - name: Cicadas
       pathPrefix: Audio
-      guid: afd858bc47df1944a9be93ea8c5be50f
-    - name: Kitchen1
+      guid: f93cd608fb6ac974497be1a5c4432c09
+    - name: Sc1room2clocks
       pathPrefix: Audio
-      guid: 141e9cbb0a81a1c40b6a23d28b835110
-    - name: Kitchen2
+      guid: ac3dc3e15841eed4fb3fd7c3eb77c330
+    - name: Steps
       pathPrefix: Audio
-      guid: 7aad1cfafd81ceb4e8ab7a73940668ec
-    - name: Room1
+      guid: 3671137c7a3f1604bb7ad09bc871fbdd
+    - name: Doors
       pathPrefix: Audio
-      guid: cff615d8721209647a9e005b64d9dc21
-    - name: Room2
+      guid: d33f8f46c637e884895341220cf5cbf6
+    - name: Clocks
       pathPrefix: Audio
-      guid: 963ecc5704255934899fdaf5b4f22a33
-    - name: "\u041F\u0456\u0434\u0432\u0430\u043B"
+      guid: 3b7cac9e54f378649871eaf9164e8b3f
+    - name: Fridge
       pathPrefix: Audio
-      guid: feb30e3c4baea194d99c15ab71ca6784
+      guid: b4b67dfca75e45a4d856be3e4af142d3
+    - name: WaterSound
+      pathPrefix: Audio
+      guid: 1ecd8846b0340ab45b0b0ec8342605e4
+    - name: Plate
+      pathPrefix: Audio
+      guid: 9843c2b20bf590948bc8dfddb11a2367
+    - name: Meow
+      pathPrefix: Audio
+      guid: 96f1a888b24ec94419a64df4f2c4067d
+    - name: Feeding
+      pathPrefix: Audio
+      guid: 68bb8ad732a8529409b7559ab544ef29
+    - name: Scraping
+      pathPrefix: Audio
+      guid: 33d9081c7ac803745b83fb478ed77209
+    - name: Shower
+      pathPrefix: Audio
+      guid: 207b40912f290da4c95ec3c825e944fe
+    - name: Yawning
+      pathPrefix: Audio
+      guid: ae2ba8e74f63e9943a9733d2da8d05d5
+    - name: LightOff
+      pathPrefix: Audio
+      guid: dae8280f38c6c8e419833098e25c40fb
+    - name: AlarmClassic
+      pathPrefix: Audio
+      guid: 4d01725e28455ad4cb8d0f2a5a768710
+    - name: AlarmElectronic
+      pathPrefix: Audio
+      guid: b65669838aae3544ab232cdb8830db77
+    - name: Falling
+      pathPrefix: Audio
+      guid: 35c11688217a74244969a26ac6ce0e04
+    - name: Exhale
+      pathPrefix: Audio
+      guid: 6e8f777e56cc41f4380f940cde8916aa
+    - name: Paws
+      pathPrefix: Audio
+      guid: 2eaf2ebe6e78ffc4c92c757f83d6cc48
+    - name: Landing1
+      pathPrefix: Audio
+      guid: a0358d03e0f113c4c855a13ebd3e8b71
+    - name: Landing2
+      pathPrefix: Audio
+      guid: 1b328e369a41cf44da8bb23c10cf81b1
+    - name: Purr
+      pathPrefix: Audio
+      guid: 4684fa81e5d82214b9f9e72d89bcde9f
+    - name: Sc2BirdSinging
+      pathPrefix: Audio
+      guid: a50461588ce9ad7409132de85f8fd561
+  - Id: Characters/fcb7a21d-3f7f-44b9-b1b6-375a36c3dfda
+    Resources:
+    - name: def
+      pathPrefix: Characters/Hand
+      guid: dbc348095b1081648837452a33c90fe4
