@@ -168,7 +168,7 @@ MonoBehaviour:
       guid: dd85ce99288c2f8488447fa511b1c0d6
   - Id: Backgrounds/1b44676d-f2fa-41c3-b005-1aea6b4f8ba3
     Resources:
-    - name: MainMenu
+    - name: 'MainMenuBackground '
       pathPrefix: Backgrounds/MainBackground
       guid: f1b63047be0756d418e7d595d1cc8aa4
     - name: BlackBg
@@ -215,9 +215,6 @@ MonoBehaviour:
       guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
   - Id: Scripts
     Resources:
-    - name: 
-      pathPrefix: Scripts
-      guid: 
     - name: Scene1
       pathPrefix: Scripts
       guid: 3c5b80c03bd2ab64da2921abb47f5e7e
@@ -270,6 +267,9 @@ MonoBehaviour:
     - name: def
       pathPrefix: Characters/Chaos
       guid: 9fafe9669cbb63249a9fba90d28c0d97
+    - name: mad
+      pathPrefix: Characters/Chaos
+      guid: 
   - Id: Characters/9699334a-eacd-4e31-aa0b-1e1b316fd94d
     Resources:
     - name: def
@@ -290,3 +290,25 @@ MonoBehaviour:
     - name: def
       pathPrefix: Characters/Counsil
       guid: c0acd118d72245346b15a86cc44e83be
+  - Id: Characters/2f220e58-a155-46a3-8d0c-78b5d3d9b7b9
+    Resources: []
+  - Id: Audio
+    Resources:
+    - name: Street
+      pathPrefix: Audio
+      guid: afd858bc47df1944a9be93ea8c5be50f
+    - name: Kitchen1
+      pathPrefix: Audio
+      guid: 141e9cbb0a81a1c40b6a23d28b835110
+    - name: Kitchen2
+      pathPrefix: Audio
+      guid: 7aad1cfafd81ceb4e8ab7a73940668ec
+    - name: Room1
+      pathPrefix: Audio
+      guid: cff615d8721209647a9e005b64d9dc21
+    - name: Room2
+      pathPrefix: Audio
+      guid: 963ecc5704255934899fdaf5b4f22a33
+    - name: "\u041F\u0456\u0434\u0432\u0430\u043B"
+      pathPrefix: Audio
+      guid: feb30e3c4baea194d99c15ab71ca6784
