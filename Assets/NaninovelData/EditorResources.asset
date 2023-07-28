@@ -327,10 +327,10 @@ MonoBehaviour:
     - name: def
       pathPrefix: Characters/Day
       guid: ebc6fee91e18246429bb956755def864
-    - name: blitchy
+    - name: bitch
       pathPrefix: Characters/Day
       guid: e1dea77302480e24aab61b7ec5c146ec
-    - name: blinked
+    - name: blink
       pathPrefix: Characters/Day
       guid: 8a8a60fb1fa82114b9ca1ee7f8a30d92
     - name: cat
@@ -424,6 +424,24 @@ MonoBehaviour:
     - name: Sc2BirdSinging
       pathPrefix: Audio
       guid: a50461588ce9ad7409132de85f8fd561
+    - name: Street
+      pathPrefix: Audio
+      guid: afd858bc47df1944a9be93ea8c5be50f
+    - name: Kitchen1
+      pathPrefix: Audio
+      guid: 141e9cbb0a81a1c40b6a23d28b835110
+    - name: Kitchen2
+      pathPrefix: Audio
+      guid: 7aad1cfafd81ceb4e8ab7a73940668ec
+    - name: Room1
+      pathPrefix: Audio
+      guid: cff615d8721209647a9e005b64d9dc21
+    - name: Room2
+      pathPrefix: Audio
+      guid: 963ecc5704255934899fdaf5b4f22a33
+    - name: Cellar
+      pathPrefix: Audio
+      guid: feb30e3c4baea194d99c15ab71ca6784
   - Id: Characters/fcb7a21d-3f7f-44b9-b1b6-375a36c3dfda
     Resources:
     - name: def
