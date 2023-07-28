@@ -163,6 +163,11 @@
         &lt;Type&gt;TextPrinters&lt;/Type&gt;
         &lt;Appearances /&gt;
       &lt;/Actor&gt;
+      &lt;Actor&gt;
+        &lt;Id&gt;People&lt;/Id&gt;
+        &lt;Type&gt;TextPrinters&lt;/Type&gt;
+        &lt;Appearances /&gt;
+      &lt;/Actor&gt;
     &lt;/Actors&gt;
     &lt;Commands /&gt;
     &lt;Resources&gt;
@@ -653,6 +658,10 @@
       &lt;Resource&gt;
         &lt;Path&gt;def&lt;/Path&gt;
         &lt;Type&gt;Characters/Hand&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;People&lt;/Path&gt;
+        &lt;Type&gt;TextPrinters&lt;/Type&gt;
       &lt;/Resource&gt;
     &lt;/Resources&gt;
     &lt;Constants /&gt;

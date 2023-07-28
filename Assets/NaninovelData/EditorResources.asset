@@ -429,3 +429,38 @@ MonoBehaviour:
     - name: def
       pathPrefix: Characters/Hand
       guid: dbc348095b1081648837452a33c90fe4
+  - Id: TextPrinters/93382452-b818-4ba3-8da9-b64d89477159
+    Resources:
+    - name: People
+      pathPrefix: TextPrinters
+      guid: 58b61c8a9ee61604b9a955a67f7a9029
+  - Id: TextPrinters/1139b84d-a183-4539-b2bd-938e7a404b02
+    Resources:
+    - name: Chaos
+      pathPrefix: TextPrinters
+      guid: 0a82d1a9acd15004581732d072a39793
+  - Id: TextPrinters/35094bff-645f-4127-869c-88a4a4a97e8d
+    Resources:
+    - name: Counsil
+      pathPrefix: TextPrinters
+      guid: 7cff327cf056f614d807c8a9cbe90d1d
+  - Id: TextPrinters/cb7577e3-4dc3-40b5-8d6c-ee3b039d7317
+    Resources:
+    - name: Day
+      pathPrefix: TextPrinters
+      guid: 94475fb577a0de746ba74ffe027e5566
+  - Id: TextPrinters/f8cea34e-29b0-4dfd-b4e6-bee3c7fc6531
+    Resources:
+    - name: Gruzd
+      pathPrefix: TextPrinters
+      guid: 1cc91d388a121824ca043cf28507d5ee
+  - Id: TextPrinters/aacf0910-37f9-4b1d-aeb0-db9c8b8f52c1
+    Resources:
+    - name: Night
+      pathPrefix: TextPrinters
+      guid: 8197f60a10c615a409e781930ecaf766
+  - Id: TextPrinters/8eba92b8-86a5-4311-a3b8-e5afda6a9089
+    Resources:
+    - name: Voices
+      pathPrefix: TextPrinters
+      guid: 8a8f232948a22c2478509f77cb31e6b1
