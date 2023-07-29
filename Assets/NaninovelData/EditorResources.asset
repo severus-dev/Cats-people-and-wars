@@ -213,6 +213,9 @@ MonoBehaviour:
     - name: Sc8_LivRoom_Ending
       pathPrefix: Backgrounds/MainBackground
       guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
+    - name: Sc6_Basement2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6429c6cc5e2df2a4aad6ea75f875889c
   - Id: Scripts
     Resources:
     - name: Scene1
@@ -224,6 +227,12 @@ MonoBehaviour:
     - name: Scene3
       pathPrefix: Scripts
       guid: 0a448b3cc549e6a40b100a4d233e5afb
+    - name: Scene4
+      pathPrefix: Scripts
+      guid: bf33929268b602f49b74efc5510bd8de
+    - name: Scene5
+      pathPrefix: Scripts
+      guid: bdee992e60591ab43a64400334907b84
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
@@ -348,6 +357,9 @@ MonoBehaviour:
     - name: surprised
       pathPrefix: Characters/Day
       guid: edfa9b9985a3d8341a99a78e1dd10edd
+    - name: misunderstood
+      pathPrefix: Characters/Day
+      guid: c6a2f4eac95758042acf2ed693505a0d
   - Id: Characters/eb6fe350-9968-4f0a-8209-00fb63e5ecd1
     Resources:
     - name: def
@@ -442,10 +454,166 @@ MonoBehaviour:
     - name: Cellar
       pathPrefix: Audio
       guid: feb30e3c4baea194d99c15ab71ca6784
+    - name: "01 \u041C\u0443\u0440\u0447\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: abce50e86a81e844e8beeaaa1a4a3735
+    - name: "02 \u0413\u043E\u0440\u043B\u043E\u0432\u0438\u0439 \u0421\u043F\u0456\u0432"
+      pathPrefix: Audio
+      guid: ec33132c9ca56034d8f317e87e6976c6
+    - name: "03 \u041B\u0430\u043F\u043A\u0438 \u041F\u043E \u0414\u0435\u0440\u0435\u0432\u0443"
+      pathPrefix: Audio
+      guid: 07919e69753ebc44684c43b6d5f83168
+    - name: "04 \u0428\u043A\u0440\u044F\u0431\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: 054eb221a1d94e7459735e9e00cc7d87
+    - name: "05 \u0420\u043E\u0437\u0441\u0438\u043F\u0430\u043D\u0438\u0439 \u041A\u043E\u0440\u043C"
+      pathPrefix: Audio
+      guid: 080313cd36cad7e4c93d0f795be13ab5
+    - name: "06 \u041B\u0430\u043F\u043A\u0438 \u0422\u0438\u0445\u0456\u0448\u0456"
+      pathPrefix: Audio
+      guid: e98d838f51a7abf4988a5388fbb0dc9e
+    - name: "\u041A\u0456\u043C\u043D\u0430\u0442\u0430 (\u0417 \u0413\u043E\u0434\u0438\u043D\u043D\u0438\u043A\u043E\u043C)"
+      pathPrefix: Audio
+      guid: 9fbf6f7a3e399224bbf3a24f512e66df
+    - name: "01 \u0420\u043E\u0437\u0441\u0438\u043F\u0430\u043D\u0438\u0439 \u041A\u043E\u0440\u043C"
+      pathPrefix: Audio
+      guid: bce52b9c8840ae24ba4fba1283f9922b
+    - name: "02 \u041A\u0438\u0434\u043E\u043A \u041C\u044F\u0447\u0438\u043A\u0430
+        (\u041A\u043E\u043C\u0435\u0434\u0456\u0439\u043D\u0438\u0439)"
+      pathPrefix: Audio
+      guid: 18d9ff9de293687439e1846d4aa8527f
+    - name: "03 \u0428\u0443\u0440\u0445\u0456\u0442 (\u0422\u043A\u0430\u043D\u0438\u043D\u0430)"
+      pathPrefix: Audio
+      guid: 133b6408706d4754f93d4386a1483337
+    - name: "04 \u041C\u0443\u0445\u0430"
+      pathPrefix: Audio
+      guid: e235fa97708aa0b4b90383df0aef6338
+    - name: "05 \u0429\u043E\u0441\u044C \u0412\u043F\u0430\u043B\u043E"
+      pathPrefix: Audio
+      guid: 12b46f540c0c5af438ac4590fed1e91d
+    - name: "06 \u0417\u043B\u0456\u0441\u043D\u0435 \u041C\u044F\u0443"
+      pathPrefix: Audio
+      guid: a8d4db2960cab9040b371471a3d60bdb
+    - name: "07 \u041C\u0443\u0445\u0430 \u0417\u0430\u0442\u0438\u0445\u0430\u0454"
+      pathPrefix: Audio
+      guid: 9ce22a49534d0fb459b7c6870ca234f5
+    - name: "08 \u041F\u0440\u0438\u0437\u0435\u043C\u043B\u0435\u043D\u043D\u044F
+        \u041D\u0430 \u041B\u0430\u043F\u043A\u0438"
+      pathPrefix: Audio
+      guid: d433e1b4dca5bb645b199961966c4735
+    - name: "09 \u0416\u0456\u043D\u043A\u0430 \u0417\u0456\u0442\u0445\u0430\u0454"
+      pathPrefix: Audio
+      guid: 2a0c8f37eff3e1e41917cb16c45da8a8
+    - name: "10 \u041A\u0456\u0442 \u0417\u0457\u0434\u0430\u0454 \u041C\u0443\u0445\u0443"
+      pathPrefix: Audio
+      guid: a9b269a8a54959b42abd691ffd20c7cf
+    - name: "11 \u0421\u0432\u0438\u0441\u0442 \u041F\u043E\u0432\u0456\u0442\u0440\u044F"
+      pathPrefix: Audio
+      guid: d0e962ad3b0aaad469daaa6ef2df8738
+    - name: "12 \u0416\u0456\u043D\u043E\u0447\u0435 \u0415\u0445..."
+      pathPrefix: Audio
+      guid: 33f78d4bb31762145839ffd7e26b2340
+    - name: "13 \u0416\u0456\u043D\u043E\u0447\u0435 \u0425\u043C..."
+      pathPrefix: Audio
+      guid: 732222d4ec9889b4d85eb246a166015f
+    - name: "14 \u041F\u043B\u0435\u0434\u0438\u043A"
+      pathPrefix: Audio
+      guid: 50010487fd533be469a9ca1f095300de
+    - name: "15 \u041D\u043E\u0436\u0456"
+      pathPrefix: Audio
+      guid: 6dda7c4737ba85a4885495b513947c90
+    - name: "16 \u041A\u0456\u0442 \u0417\u043B\u043E\u0432\u0456\u0449\u0435 \u0428\u0438\u043F\u0438\u0442\u044C"
+      pathPrefix: Audio
+      guid: 806285759363e204195f51716247a3b0
+    - name: "17 \u0412\u0456\u0442\u0435\u0440 \u0412 \u0412\u0443\u0445\u0430\u0445"
+      pathPrefix: Audio
+      guid: 38d9f56cf92912941ae5f2d8b9b2f055
+    - name: "01 \u041A\u0456\u043C\u043D\u0430\u0442\u0430"
+      pathPrefix: Audio
+      guid: 4727ed7c9c2647a4db9864dc3b528414
+    - name: "01 \u041F\u0440\u0438\u0441\u043A\u043E\u0440\u0435\u043D\u0435 \u0441\u0435\u0440\u0446\u0435\u0431\u0438\u0442\u0442\u044F"
+      pathPrefix: Audio
+      guid: adcbd2222a8cf754d8ecdb672b7f838d
+    - name: "02 \u0428\u043A\u0440\u044F\u0431\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: f7971f2fa5ed75347934a4aade8422a5
+    - name: "03 \u041A\u0430\u0431\u043B\u0443\u043A\u0438"
+      pathPrefix: Audio
+      guid: bc3db0fe93dbd0a498e4bfe741f9e2fb
+    - name: "04 \u0416\u0456\u043D\u043A\u0430 \u0417\u0456\u0442\u0445\u0430\u0454"
+      pathPrefix: Audio
+      guid: 3f48f93cd086c3843bfc8f36bd57fff7
+    - name: "05 \u041C\u0443\u0440\u0447\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: 4e95e911c77d48542bdae1f4f5c104d9
+    - name: "06 \u0426\u0435\u0433\u043B\u0430 \u0420\u043E\u0437\u0431\u0438\u0432\u0430\u0454\u0442\u044C\u0441\u044F"
+      pathPrefix: Audio
+      guid: a6473af6cac450545a5d01ae8f940cd0
+    - name: "07 \u041F\u043E\u0437\u0456\u0445\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: bb901e075be2b5549bc380f99c483a22
+    - name: "08 \u041A\u0430\u043C\u0456\u043D\u0446\u0456"
+      pathPrefix: Audio
+      guid: 2df13f35c47efc54b812206c121420c2
+    - name: "09 \u0421\u043F\u0456\u0432 \u041F\u0442\u0430\u0448\u043A\u0438"
+      pathPrefix: Audio
+      guid: 653de3bd104d8544ca9896b82b21d59f
+    - name: "01 \u0412\u0443\u043B\u0438\u0446\u044F"
+      pathPrefix: Audio
+      guid: 46b23689645812a499ef02a95284495a
+    - name: "01 \u0421\u043F\u0456\u0432 \u041F\u0442\u0430\u0448\u043A\u0438"
+      pathPrefix: Audio
+      guid: 7eb22033b4b060c4886282a6debe440b
+    - name: "02 \u041F\u043B\u044F\u0448\u043A\u0430 \u041F\u043E \u0417\u0435\u043C\u043B\u0456"
+      pathPrefix: Audio
+      guid: 968d2dc35a73779479dcbd9dfcac687a
+    - name: "03 \u0413\u043E\u043B\u043E\u0434\u043D\u0438\u0439 \u0428\u043B\u0443\u043D\u043E\u043A"
+      pathPrefix: Audio
+      guid: bb2e3fb5cff2fbe4aa6d0de8a3919349
+    - name: "01 \u0412\u0443\u043B\u0438\u0446\u044F"
+      pathPrefix: Audio
+      guid: 042c76688325d6846af3e87add44ff02
+    - name: "02 \u041F\u0456\u0434\u0432\u0430\u043B (\u0417 \u041A\u0440\u0430\u043F\u043B\u044F\u043C\u0438)"
+      pathPrefix: Audio
+      guid: 6edab2a391eccd643ab9e08ffeee6c69
+    - name: "01 \u0428\u043A\u0440\u044F\u0431\u0430\u043D\u043D\u044F"
+      pathPrefix: Audio
+      guid: 62ee01898de9ab5429a119f034211c92
+    - name: "02 \u0428\u0443\u043C \u041B\u0438\u0441\u0442\u044F"
+      pathPrefix: Audio
+      guid: cc672e5c7b1fa554da5a2426ed9e9a4a
+    - name: "03 \u0421\u043E\u0440\u043E\u043A\u0430"
+      pathPrefix: Audio
+      guid: 25911753c8fda91498a0032f9062a792
+    - name: "04 \u041F\u0440\u0438\u0437\u0435\u043C\u043B\u0435\u043D\u043D\u044F
+        \u041D\u0430 \u041B\u0430\u043F\u043A\u0438"
+      pathPrefix: Audio
+      guid: 85d712b5bc2b7674387d310312ece74e
+    - name: "05 \u0427\u043E\u043B\u043E\u0432\u0456\u0447\u0435 \u041C\u043C\u043C..."
+      pathPrefix: Audio
+      guid: fdd018d76d2a88a45a4a3e6212974b94
+    - name: "06 \u041F\u043B\u044F\u043C-\u041F\u043B\u044F\u043C"
+      pathPrefix: Audio
+      guid: 5e3876701b268a1489cfe864ae24019a
+    - name: "07 \u041A\u0456\u0442 \u0417\u043B\u043E\u0432\u0456\u0449\u0435 \u0428\u0438\u043F\u0438\u0442\u044C"
+      pathPrefix: Audio
+      guid: e186c437d0d6d6e4f9b636aa02139f21
+    - name: "08 (\u0430) \u041A\u0456\u0442 \u0420\u0438\u0447\u0438\u0442\u044C"
+      pathPrefix: Audio
+      guid: 358d725edb8659e4f9bfe17db4784e8c
+    - name: "08 (\u0431) \u041A\u0456\u0442 \u0420\u0438\u0447\u0438\u0442\u044C"
+      pathPrefix: Audio
+      guid: aff2ff0d4b818514d9bf032194af95a5
+    - name: "01 \u0412\u0443\u043B\u0438\u0446\u044F"
+      pathPrefix: Audio
+      guid: 04e95476ddf98614bb7b198ef01c56e0
+    - name: "02 \u041F\u0456\u0434\u0432\u0430\u043B (\u0417 \u041A\u0440\u0430\u043F\u043B\u044F\u043C\u0438)"
+      pathPrefix: Audio
+      guid: ba91c9bc700b6104abb79367b10bc8e5
   - Id: Characters/fcb7a21d-3f7f-44b9-b1b6-375a36c3dfda
     Resources:
     - name: def
-      pathPrefix: Characters/Hand
+      pathPrefix: Characters/Paw
       guid: dbc348095b1081648837452a33c90fe4
   - Id: TextPrinters/93382452-b818-4ba3-8da9-b64d89477159
     Resources:
@@ -482,3 +650,8 @@ MonoBehaviour:
     - name: Voices
       pathPrefix: TextPrinters
       guid: 8a8f232948a22c2478509f77cb31e6b1
+  - Id: TextPrinters/540f84df-7d01-4b5e-b42a-a930679f80dd
+    Resources:
+    - name: Thoughts
+      pathPrefix: TextPrinters
+      guid: e482672f379001c40bd886c2e3a2d709
