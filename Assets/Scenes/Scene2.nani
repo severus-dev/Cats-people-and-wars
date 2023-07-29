@@ -223,94 +223,167 @@
 Треба спочатку освоїтися в цьому тілі.
 Ліва лапа, правий хвіст, задня передня… Ой як тут легко заплутатися.
 
-@goto .Steps
-
-#Steps
-@choice "Спробувати зробити декілька кроків" 
-@stop
-
 З чого ж мені почати?
+; ПОЧАТОК КВЕСТУ З ЛАПАМИ!!!!!!!
+
+@goto .Step1
+
+#Step1
 Перший крок.
 
-@choice "Права задня лапа" goto:.RightBackward
-@choice "Ліва передня лапа" goto:.OneLeftCompelte
-@choice "Ліва задня лапа" goto:.LeftBackward
-@choice "Права передня лапа" goto:.OneRightComplete
+@choice "Права задня лапа" goto:.RightBackOne
+@choice "Ліва передня лапа" goto:.LeftFrontOne
+@choice "Ліва задня лапа" goto:.LeftBackOne
+@choice "Права передня лапа" goto:.RightFrontOne
 @stop
 
-#RightBackward
-Відчуваю, щось не те. Можливо, треба почати з передньої?
-@goto .Steps
-
-#LeftBackward
-Мені чомусь здається, що мій рух має починатися з передньої лапи.
-@goto .Steps
-
-#OneRightComplete
-Добре, тепер...
-Другий крок.
-@choice "Права передня лапа" goto:.Error
-@choice "Ліва задня лапа" goto:.TwoStepsCompleteLeft
-@choice "Права задня лапа" goto:.Error
-@choice "Ліва передня лапа" goto:.Error
+#RightBackOne
+Добре, яким буде другий крок?
+@choice "Ліва передня лапа" set:stepOne="RightBackLeftFront" goto:.Step2
+@choice "Ліва задня лапа" goto:.FailBack
+@choice "Права передня лапа" goto:.FailSide
 @stop
 
-
-#OneLeftCompelte
-Так, початок покладено. Далі…
-Другий крок.
-@choice "Права передня лапа" goto:.Error
-@choice "Ліва задня лапа" goto:.Error
-@choice "Права задня лапа" goto:.TwoStepsCompleteRight
-@choice "Ліва передня лапа" goto:.Error
+#LeftFrontOne
+Поки що виходить. Якою лапою ступати далі?
+@choice "Права задня лапа" set:stepOne="LeftFrontRightBack" goto:.Step2
+@choice "Ліва задня лапа" goto:.FailSide
+@choice "Права передня лапа" goto:.FailFront
 @stop
 
+#LeftBackOne
+Перша лапа є, що далі?
+@choice "Права задня лапа" goto:.FailBack
+@choice "Ліва передня лапа" goto:.FailSide
+@choice "Права передня лапа" set:stepOne="LeftBackRightFront" goto:.Step2
+@stop
 
-#TwoStepsCompleteLeft
-Ось так! Задньою лівою. Лапи якимось чином приєднані в цьому тілі діагонально
+#RightFrontOne
+Так, тепер наступна лапа...
+@choice "Права задня лапа" goto:.FailSide
+@choice "Ліва передня лапа" goto:.FailFront
+@choice "Ліва задня лапа" set:stepOne="RightFrontLeftBack" goto:.Step2
+@stop
+
+; Fail states
+
+#FailSide
+Щось не те. Чому мене тепер клонить убік? Треба повернутись у початкову позицію і спробувати інший підхід.
+@goto .Step1
+
+#FailFront
+Моя передня частина суне далі, а задня так і продовжує стояти. Ще трохи, і розтягнуся пузом по підлозі. Спробуємо ще раз.
+@goto .Step1
+
+#FailBack
+Тьху, якщо рухати тільки обома задніми, одразу плюхаюсь на п'яту точку. Треба спробувати іншу послідовність.
+@goto .Step1
+
+#Fail
+І все ж таки я десь помилився... як же це складно!
+*падає*
+@goto .Step1
+
+; ПОЧАТОК ДРУГОЇ КОМБІНАЦІЇ КРОКІВ
+
+#Step2
+Ось так! Треба чергувати. Лапи якимось чином приєднані в цьому тілі діагонально
 Неперевершено! Цілих два котячих кроки! Але лапи чотири, і всі їх треба якось задіяти. Тож…
-Третій крок.
-@choice "Права задня лапа" goto:.Error
-@choice "Ліва передня лапа" goto:.Error
-@choice "Ліва задня лапа"  goto:.Error
-@choice "Права передня лапа" goto:.ThreeStepsCompleteRight
+Третій крок
+
+@choice "Права задня лапа" goto:.RightBackCheck
+@choice "Ліва передня лапа" goto:.LeftFrontCheck
+@choice "Ліва задня лапа" goto:.LeftBackCheck
+@choice "Права передня лапа" goto:.RightFrontCheck
 @stop
 
-#TwoStepsCompleteRight
-Ось так! Лапи якимось чином приєднані в цьому тілі діагонально.
-Неперевершено! Цілих два котячих кроки! Але лапи чотири, і всі їх треба якось задіяти. Тож…
-Третій крок.
+#RightBackCheck
+@if stepOne=="RightBackLeftFront"
+	Тьху ти! Знову щось наплутав. Я ж уже ступав цією лапою! Доведеться починати спочатку...
+	@goto .Step1
+@elseif stepOne=="LeftFrontRightBack"
+	Знову щось не те. Я вже задіяв лапу з цієї пари. Почнемо спочатку.
+	@goto .Step1
+@elseif stepOne=="LeftBackRightFront"
+	Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
+	@goto .RightBackTwo
+@elseif stepOne=="RightFrontLeftBack"
+	Вау, клас! Я майже вмію ходити як кіт! І остання лапа…
+	@goto .RightBackTwo
+@endif
 
-@choice "Права задня лапа" goto:.Error
-@choice "Ліва передня лапа" goto:.ThreeStepsCompleteLeft
-@choice "Ліва задня лапа" goto:.Error
-@choice "Права передня лапа" goto:.Error
+#LeftFrontCheck
+@if stepOne=="RightBackLeftFront"
+	Тьху ти! Знову щось наплутав. Я ж уже ступав цією лапою! Доведеться починати спочатку...
+	@goto .Step1
+@elseif stepOne=="LeftFrontRightBack"
+	Знову щось не те. Я вже задіяв лапу з цієї пари. Почнемо спочатку.
+	@goto .Step1
+@elseif stepOne=="LeftBackRightFront"
+	Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
+	@goto .LeftFrontTwo
+@elseif stepOne=="RightFrontLeftBack"
+	Вау, клас! Я майже вмію ходити як кіт! І остання лапа…
+	@goto .LeftFrontTwo
+@endif
+
+#LeftBackCheck
+@if stepOne=="RightBackLeftFront"
+	Вау, клас! Я майже вмію ходити як кіт! І остання лапа…
+	@goto .LeftBackTwo
+@elseif stepOne=="LeftFrontRightBack"
+	Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
+	@goto .LeftBackTwo
+@elseif stepOne=="LeftBackRightFront"
+	Тьху ти! Знову щось наплутав. Я ж уже ступав цією лапою! Доведеться починати спочатку...
+	@goto .Step1	
+@elseif stepOne=="RightFrontLeftBack"
+	Знову щось не те. Я вже задіяв лапу з цієї пари. Почнемо спочатку.
+	@goto .Step1	
+@endif
+
+#RightFrontCheck
+@if stepOne=="RightBackLeftFront"
+	Вау, клас! Я майже вмію ходити як кіт! І остання лапа…
+	@goto .RightFrontTwo
+@elseif stepOne=="LeftFrontRightBack"
+	Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
+	@goto .RightFrontTwo
+@elseif stepOne=="LeftBackRightFront"
+	Знову щось не те. Я вже задіяв лапу з цієї пари. Почнемо спочатку.
+	@goto .Step1	
+@elseif stepOne=="RightFrontLeftBack"
+	Тьху ти! Знову щось наплутав. Я ж уже ступав цією лапою! Доведеться починати спочатку...
+	@goto .Step1
+@endif
+
+#RightBackTwo
+Четвертий крок.
+@choice "Ліва передня лапа" goto:.StepsCompleted
+@choice "Ліва задня лапа" goto:.Fail
+@choice "Права передня лапа" goto:.Fail
 @stop
 
-#ThreeStepsCompleteLeft
-Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
-Вау, клас! Я майже вмію ходити як кіт! І остання лапа…
+#LeftFrontTwo
 Четвертий крок.
 @choice "Права задня лапа" goto:.StepsCompleted
-@choice "Ліва передня лапа" goto:.Error
-@choice "Ліва задня лапа" goto:.Error
-@choice "Права передня лапа" goto:.Error
+@choice "Ліва задня лапа" goto:.Fail
+@choice "Права передня лапа" goto:.Fail
 @stop
 
-#ThreeStepsCompleteRight
-Я відчуваю дивне естетичне задоволення! Залишилася остання лапа.
+#LeftBackTwo
 Четвертий крок.
-@choice "Права задня лапа" goto:.Error
-@choice "Ліва передня лапа" goto:.Error
-@choice "Ліва задня лапа" goto:.StepsCompleted
-@choice "Права передня лапа" goto:.Error
+@choice "Права задня лапа" goto:.Fail
+@choice "Ліва передня лапа" goto:.Fail
+@choice "Права передня лапа" goto:.StepsCompleted
 @stop
 
-#Error
-*падає*
-десь я помилився...
-як же це складно!
-@goto .Steps
+#RightFrontTwo
+Четвертий крок.
+@choice "Права задня лапа" goto:.Fail
+@choice "Ліва передня лапа" goto:.Fail
+@choice "Ліва задня лапа" goto:.StepsCompleted
+@stop
 
 #StepsCompleted
 Ура! Вдалося! Тепер я вмію ходити на чотирьох лапах.
