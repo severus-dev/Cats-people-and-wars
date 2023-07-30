@@ -29,4 +29,5 @@
 @wait 3
 Дякуємо, {PlayerName}!
 
-@goto CreditsUI
+@stop
+;@goto CreditsUI
