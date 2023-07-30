@@ -668,10 +668,10 @@
 			@char Gruzd.sad
 			Груздь: Нікому не потрібен пан Груздь, адже і пану Груздю ніхто не потрібен.
 
-			@goto .Scene8
+			@goto Scene8
 
 		#PeopleBad
-		@set FriendGruzd=true
+			@set FriendGruzd=true
 
 			@printer Gruzd
 			@char Gruzd.def			
@@ -715,8 +715,8 @@
 
 			@char Gruzd.sad
 			Груздь: Чи може хоч одна жива душа зрадіти появі пана Груздя? Не знаю. Просто не знаю.
-
-			@goto .Scene8
+			
+			@goto Scene8
 
 	#Disgust
 		@printer Thoughts
@@ -743,7 +743,7 @@
 		@char Gruzd.agressive
 		Груздь: Тому й пану Груздю ніхто не потрібен, от що я тобі скажу.
 		
-		@goto .Scene8
+		@goto Scene8
 
 #TeachGruzd
 	@printer Thoughts
