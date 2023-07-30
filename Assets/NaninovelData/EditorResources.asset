@@ -224,9 +224,6 @@ MonoBehaviour:
       guid: a3ffa39a24fa2b046811d29246a6bab6
   - Id: Scripts
     Resources:
-    - name: Scene0
-      pathPrefix: Scripts
-      guid: 73652541a69de5b4b817f63ec5c83aa0
     - name: Scene1
       pathPrefix: Scripts
       guid: 3c5b80c03bd2ab64da2921abb47f5e7e
@@ -254,9 +251,6 @@ MonoBehaviour:
     - name: Scene9
       pathPrefix: Scripts
       guid: caaf09b550e6fa84d9e7e4306f862f9e
-    - name: Scene0
-      pathPrefix: Scripts
-      guid: 73652541a69de5b4b817f63ec5c83aa0
     - name: Scene10
       pathPrefix: Scripts
       guid: 1b69f6604b7783f42bcd57a8a9dac9ec
