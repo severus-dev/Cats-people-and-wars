@@ -463,10 +463,9 @@
         @printer Night
         Ніч: Так, скажи йому правду, День! Бо мені вже набридли ці твої кастанедівські фантазії!
 
-        ;УВАГА. Порахувати змінну Дня й написати тут максимальну кількість балів -2 (задіяти Дашу)
-
-        @if DayRelationships==true
-            @goto .DayIsFriend
+	
+        if DayRelationships>=5
+		@goto .DayIsFriend
 
         @else
             @char Day.def
@@ -508,8 +507,9 @@
             @goto .SleepingDay
         
         @endIf
-        
-        #DayIsFriend
+
+
+	#DayIsFriend
 
             @char Day.sleepy
             @printer Day
