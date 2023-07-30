@@ -295,6 +295,15 @@ MonoBehaviour:
     - name: CG/Sc8_LivRoom_Ending
       pathPrefix: Unlockables
       guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
+    - name: CG/Sc8_LivRoom_Ending
+      pathPrefix: Unlockables
+      guid: de05b78bd3ef4674f9c32ecb8e2cf7bf
+    - name: CG/Sc9_Outside3_HumanPersp
+      pathPrefix: Unlockables
+      guid: a3ffa39a24fa2b046811d29246a6bab6
+    - name: CG/BGchars
+      pathPrefix: Unlockables
+      guid: eac2d4d22a28b1546b398c9d55291d2a
   - Id: Characters/192f43da-fec9-4384-98f7-ae3ac6b8574c
     Resources:
     - name: def

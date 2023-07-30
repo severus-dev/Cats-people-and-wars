@@ -3,7 +3,8 @@
 @bgm BasementWithDropsEmbience
 @bgm MarketTheme2
 @hide Chaos
-
+@unlock CG/Sc8_LivRoom_Ending
+@unlock CG/Sc9_Outside3_HumanPersp
 @char Gruzd.surprised
 
 @printer Thoughts

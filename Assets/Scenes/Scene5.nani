@@ -1,3 +1,7 @@
+@unlock CG/Sc5_Outside1_Tree
+@unlock CG/Sc5_Outside2_1_TWOvasons
+@unlock CG/Sc5_Outside2_2_ONEvason
+@unlock CG/Sc5_Outside3_inBushes
 @stopBgm
 
 @sfx HeartPalpitation loop:true

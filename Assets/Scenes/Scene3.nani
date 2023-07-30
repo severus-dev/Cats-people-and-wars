@@ -1,3 +1,7 @@
+@unlock CG/Sc3_Kitchen_1
+@unlock CG/Sc3_Kitchen_3_1_TWOeggs
+@unlock CG/Sc3_Kitchen_3_2_ONEegg
+
 @stopBgm
 @back Sc3_Kitchen_1
 @bgm DayTheme
@@ -391,7 +395,7 @@
 @char Day.meh
 День: Головне — запам'ятай: котам не можна обрізати кігті. Ніколи. Ні за яких умов. Чуєш мене? Ні за яких умов.
 
-@choice "Добре, більше не буду…" goto:.#OkIWont
+@choice "Добре, більше не буду…" goto:.OkIWont
 @choice "Розумієш, мій диван…" goto:.MySofa
 @stop
 

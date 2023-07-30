@@ -1,7 +1,7 @@
 @stopBgm
 @back Sc8_Kitchen
 @sfx MobileCall
-
+@unlock CG/BGchars
 @printer People
 Олеся: Що? Мені вдалося додзвонитися до тебе? Дякувати богу! Я вже збиралася викликати швидку та поліцію.
 
@@ -175,7 +175,9 @@
 	@hide Gruzd
 	@hide Day
 	@hide Night
+	@hideChars
 	@back BlackBg
+
 
 	@bgm NightTheme
 
@@ -235,6 +237,7 @@
 	@hide Gruzd
 	@hide Day
 	@hide Night	
+	@hideChars
 	@back BlackBg
 
 	@bgm DayTheme
@@ -280,6 +283,7 @@
 	@hide Gruzd
 	@hide Day
 	@hide Night	
+	@hideChars
 	@back BlackBg
 
 	@bgm DayTheme
@@ -336,6 +340,7 @@
 	@hide Gruzd
 	@hide Day
 	@hide Night	
+	@hideChars
 	@back BlackBg
 
 	@bgm HrusdTheme
@@ -362,7 +367,7 @@
 	Телеведуча: Люди вчаться гуляти тільки в нашийниках й відгукатися на прізвиська, які дали їм роніксоні, правильно підносити своїм господарям корм та робити масаж навколовушного простору.
 
 	Телеведуча: Людство знайшло свій істинний поклик — робити котів щасливими. А всі незгодні потрапляють на арену амфітеатру, де борються не на життя, а на смерть.
-	@bgm ReincarnationTheme
+	
 	Телеведуча: Ще півроку тому це звучало б жахливо, але сьогодні люди абсолютно щасливі.
 
 	Телеведуча: Принаймні, так написав телесуфлер… Вибачте.
@@ -376,6 +381,7 @@
 	@hide Gruzd
 	@hide Day
 	@hide Night	
+	@hideChars
 	@back BlackBg
 
 	@bgm ChaosTheme

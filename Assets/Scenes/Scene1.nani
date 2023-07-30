@@ -68,8 +68,8 @@
 @choice "Де ви, шельми?"
 @stop
 
-@char Night.cat look:left
-@char Day.cat look:left
+@char Day.cat pos:30,15
+@char Night.cat pos:60,15
 
 ; (З'являються Night, День - іконки по обидві сторони екрану)
 
