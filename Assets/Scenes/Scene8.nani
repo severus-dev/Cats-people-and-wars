@@ -17,10 +17,11 @@
 
 А наступної миті на те місце, звідки мене знесло хвилею самозахисного ухиляння, зістрибує величезний лахматий кіт.
 
-@char Day.def
-@printer Day
+@char Day.def look:Right
+@printer Day 
 День: О гравець, ти дійшов до кульмінації своєї духовної пригоди, ти зіткнувся з демоном у цій зловісній грі сомнамбулічних ілюзій!
 
+@char Gruzd.surprised look:Right pos:30
 @char Day.bitch
 @printer Day
 День: Ти маєш подолати цього демона, і твій тотем прийшов тобі на допомогу!
@@ -52,7 +53,7 @@
 @printer Gruzd
 Груздь: Я не примара, що ти верзеш!
 
-@if FriendGruzd==true
+@if FriendGruzd=true
     @goto .GruzdIsFriend
 
 @else
@@ -273,7 +274,7 @@
 
 @sfx AskMeow
 
-@char Night.def
+@char Night.def pos:50
 @printer Night
 Ніч: Ну нарешті я тебе знайшла!
 
@@ -399,7 +400,11 @@
 Несподівано центр кімнати починає сяяти блідо-блакитним світлом, і всі завмирають. З'являється силует кота, але він геть не такий, як усі ці коти.
 
 @printer Thoughts
-@char Counsil.def 
+@char Counsil.def pos:80
+@char Day.def pos:15 look:Left
+@char Gruzd.def pos:25 look:Right
+@char Chaos.def pos:40 look:Left
+@char Night.def pos:50 look:Left
 Всі, з ким мені довелося зустрітися сьогодні, зроблені з плоті й крові — або принаймні схожі на таких. А крізь цього я бачу дальню стіну підвалу.
 
 @printer Counsil
@@ -768,12 +773,18 @@
 Раптом я помічаю, як на моїй лапі опадає шерсть, і вона починає збільшуватися в мене на очах.
 
 ; ЛАПА КОТЯЧА, Збільшена. Сподіваюся правильно поставила все
-@char Paw.enlarged
+@char Counsil.def pos:80
+@char Day.def pos:15 look:Left
+@char Gruzd.def pos:25 look:Right
+@char Chaos.def pos:40 look:Left
+@char Night.def pos:60 look:Left
+@char Paw.enlarged pos:50
 
 @printer Dialogue
 {PlayerName}: О ні! Що відбувається?
 
 @char Night.interesting
+
 @printer Night
 Ніч: Що?
 
@@ -830,10 +841,7 @@
 @printer Thoughts
 Останнє, що я відчуваю — асфальт, по якому мене волочать четверо котів.
 
-@hide Day
-@hide Night
-@hide Chaos
-@hide Gruzd
+@hideChars
 
 @back Sc5_Outside2_2_ONEvason
 
@@ -866,4 +874,4 @@
 
 @sfx Meow
 
-@goto .Scene9
+@goto Scene9

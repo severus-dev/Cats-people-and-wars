@@ -317,7 +317,7 @@
 	@printer Thoughts
 	Тільки Хаос зникає, з-за кущів вистрибує розлючений Груздь.
 
-	@char Gruzd.def
+	@char Gruzd.def look:left
 	Він хапає мене за вухо й тащить у свій підвал.
 
 	@hide Gruzd
@@ -353,7 +353,7 @@
 	@choice "Хіба ти не цьому хотів мене навчити?" goto:.Learn
 	@choice "Я принесу тобі нову кльоцку!" goto:.NewClyocka
 	@choice "Моя кров отруєна." if:poison==false goto:.Poison
-
+	@stop
 	#Learn
 		@printer Dialogue
 		{PlayerName}: Що я маю боротися за свободу не дивлячись ні на що?

@@ -68,9 +68,8 @@
 
 @sfx HelloMeow
 
-@char Day.cat
-@char Night.cat
-
+@char Day.cat pos:30,15
+@char Night.cat pos:60,15
 Пушок: …
 
 {PlayerName}: Дряпа? Пушок?

@@ -680,7 +680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: 20
-    m_Right: 135
+    m_Right: 100
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 5

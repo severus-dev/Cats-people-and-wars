@@ -312,6 +312,12 @@ MonoBehaviour:
     - name: upset
       pathPrefix: Characters/Chaos
       guid: 942375318dbf26b478462caf2b905d72
+    - name: "\u0441at"
+      pathPrefix: Characters/Chaos
+      guid: ebdaa7e17782fc94e872d8096a2cc29a
+    - name: sad
+      pathPrefix: Characters/Chaos
+      guid: 942375318dbf26b478462caf2b905d72
   - Id: Characters/9699334a-eacd-4e31-aa0b-1e1b316fd94d
     Resources:
     - name: def
@@ -332,6 +338,9 @@ MonoBehaviour:
     - name: surprised
       pathPrefix: Characters/Gruzd
       guid: 798e3073384b5b64a812fe910f09bf6d
+    - name: cat
+      pathPrefix: Characters/Gruzd
+      guid: 9ed35a855de5e4a4380a801bab2c5abe
   - Id: Characters/e74c16bd-2b42-499a-bd44-e2e1504064ea
     Resources:
     - name: def
@@ -352,6 +361,15 @@ MonoBehaviour:
     - name: thinking
       pathPrefix: Characters/Night
       guid: 80669d37f9f7f3047b81bfc6095b04f7
+    - name: despair
+      pathPrefix: Characters/Night
+      guid: a266135ad4af2d34aaf762e8c0864400
+    - name: mad
+      pathPrefix: Characters/Night
+      guid: 27b735b9a8447f049a1acdcdf29e3d75
+    - name: smilyng
+      pathPrefix: Characters/Night
+      guid: af4383fcc1b501b4e9f4581175e291cc
   - Id: Characters/ca835534-926b-4fe0-bc7e-88581258f464
     Resources:
     - name: def
