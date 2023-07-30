@@ -304,7 +304,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2639250122678751712}
+  - {fileID: 6213083985358051378}
   m_Father: {fileID: 224911864728285500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_FlexibleWidth: 0
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!1001 &2863749366282629454
+--- !u!1001 &6136112811887409308
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1056,7 +1056,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1606130285726930, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_Name
-      value: ControlPanel
+      value: ControlPanel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114134587097799184, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
+      propertyPath: m_ChildAlignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224008684833794188, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1723,8 +1727,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
---- !u!224 &2639250122678751712 stripped
+--- !u!224 &6213083985358051378 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224780725045092526, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
-  m_PrefabInstance: {fileID: 2863749366282629454}
+  m_PrefabInstance: {fileID: 6136112811887409308}
   m_PrefabAsset: {fileID: 0}

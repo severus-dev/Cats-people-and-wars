@@ -216,6 +216,12 @@ MonoBehaviour:
     - name: Sc6_Basement2
       pathPrefix: Backgrounds/MainBackground
       guid: 6429c6cc5e2df2a4aad6ea75f875889c
+    - name: Sc8_Kitchen
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0a95d406d5292dc4fa18363ea8df4314
+    - name: Sc9_Outside3_HumanPersp
+      pathPrefix: Backgrounds/MainBackground
+      guid: a3ffa39a24fa2b046811d29246a6bab6
   - Id: Scripts
     Resources:
     - name: Scene1
@@ -233,6 +239,21 @@ MonoBehaviour:
     - name: Scene5
       pathPrefix: Scripts
       guid: bdee992e60591ab43a64400334907b84
+    - name: Scene6
+      pathPrefix: Scripts
+      guid: bbfc148a31b72de4a8465c48a346ba3f
+    - name: Scene7
+      pathPrefix: Scripts
+      guid: baad4f907def424448d9cbb30149973d
+    - name: Scene8
+      pathPrefix: Scripts
+      guid: 79a915820b39e4149a116fd7b8383c64
+    - name: Scene9
+      pathPrefix: Scripts
+      guid: caaf09b550e6fa84d9e7e4306f862f9e
+    - name: Credits
+      pathPrefix: Scripts
+      guid: e3b2c6c361a64c64fb1fa6be13c2e53f
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
@@ -678,12 +699,12 @@ MonoBehaviour:
     Resources:
     - name: Chaos
       pathPrefix: TextPrinters
-      guid: 0a82d1a9acd15004581732d072a39793
+      guid: f086b9507bb52a144944fc03b83ea8f4
   - Id: TextPrinters/35094bff-645f-4127-869c-88a4a4a97e8d
     Resources:
     - name: Counsil
       pathPrefix: TextPrinters
-      guid: 7cff327cf056f614d807c8a9cbe90d1d
+      guid: eebc78d467c775d4ea4cc769d1c91f99
   - Id: TextPrinters/cb7577e3-4dc3-40b5-8d6c-ee3b039d7317
     Resources:
     - name: Day
@@ -693,7 +714,7 @@ MonoBehaviour:
     Resources:
     - name: Gruzd
       pathPrefix: TextPrinters
-      guid: 1cc91d388a121824ca043cf28507d5ee
+      guid: 476dc92149b81704bb042b041ad5512d
   - Id: TextPrinters/aacf0910-37f9-4b1d-aeb0-db9c8b8f52c1
     Resources:
     - name: Night
@@ -708,4 +729,4 @@ MonoBehaviour:
     Resources:
     - name: Thoughts
       pathPrefix: TextPrinters
-      guid: e482672f379001c40bd886c2e3a2d709
+      guid: 8859806da2e98154cab794760cbf42c5

@@ -1,0 +1,32 @@
+
+@printer Fullscreen
+@bgm ReincarnationTheme
+
+@wait 3
+Над грою працювали: 
+
+@wait 5
+Анна Ржевська (художниця) linktr.ee/arzh063
+
+@wait 5
+Роман Ткаченко (программіст) linkedin:roman-tkachenko-59a048267
+
+@wait 5
+Марія Учитель (помічниця сценаристки) instagram.com/tenar_of_atuan
+
+@wait 5
+Дарія Селищева (сценаристка) taplink.cc/dahuanna
+
+@wait 5
+Артем Бемба (музика та звуки) ???
+
+@wait 5
+Валерій Петров (продюсер) boticelly.itch.io/
+
+@wait 5
+Гра була створена спеціально для Ukrainian Visual Novel Jam №3
+
+@wait 3
+Дякуємо, {PlayerName}!
+
+@goto CreditsUI

@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0431\u0435\u0440\u0435\u0433\u0442\u0438"
+  m_Text: SAVE
 --- !u!114 &7560650357621239668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0410\u0432\u0442\u043E\u0447\u0438\u0442\u0430\u043D\u043D\u044F"
+  m_Text: AUTO
 --- !u!114 &1283048412155474270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -879,7 +879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u0438"
+  m_Text: SKIP
 --- !u!114 &5998539723583619889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,7 +989,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0428\u0432. \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F"
+  m_Text: Q.SAVE
 --- !u!114 &29053009917141176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,7 +1312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041C\u0435\u043D\u044E"
+  m_Text: TITLE
 --- !u!114 &6711074667010690578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,7 +1422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0421\u0445\u043E\u0432\u0430\u0442\u0438"
+  m_Text: HIDE
 --- !u!114 &3496393612092183864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0438 "
+  m_Text: LOAD
 --- !u!114 &7690223317209848591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: DefaultUI
   key: ControlPanel.Load
-  defaultValue: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0438 "
+  defaultValue: "\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u0438"
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1642,7 +1642,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041D\u0430\u043B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F"
+  m_Text: SETTINGS
 --- !u!114 &5134435709292290945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,7 +2628,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0428\u0432. \u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+  m_Text: Q.LOAD
 --- !u!114 &7108815604518114713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3347,7 +3347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0406\u0441\u0442\u043E\u0440\u0456\u044F"
+  m_Text: LOG
 --- !u!114 &2305018720078484405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3457,7 +3457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041F\u043E\u0440\u0430\u0434\u0438"
+  m_Text: TIPS
 --- !u!114 &7608923147161375294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,7 +3472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: DefaultUI
   key: ControlPanel.Tips
-  defaultValue: "\u041F\u043E\u0440\u0430\u0434\u0438"
+  defaultValue: 
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
