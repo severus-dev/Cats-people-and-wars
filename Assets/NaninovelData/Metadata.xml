@@ -486,10 +486,6 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;Credits&lt;/Path&gt;
-        &lt;Type&gt;Scripts&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
         &lt;Path&gt;Sc1_Kitchen&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -934,7 +930,7 @@
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;BasementWith DropsEmbience&lt;/Path&gt;
+        &lt;Path&gt;BasementWithDropsEmbience&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
@@ -998,11 +994,11 @@
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt; PackageRustling&lt;/Path&gt;
+        &lt;Path&gt;PackageRustling&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt; PackageRustlingTrash&lt;/Path&gt;
+        &lt;Path&gt;PackageRustlingTrash&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

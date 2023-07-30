@@ -4,18 +4,7 @@
 @sfx Steps
 @bgm Cicadas
 
-@choice "провдовжити 1"
-@choice "Scene2" goto:Scene2
-@choice "Scene3" goto:Scene3
-@choice "Scene4" goto:Scene4
-@choice "Scene5" goto:Scene5
-@choice "Scene6" goto:Scene6
-@choice "Scene7" goto:Scene7
-@choice "Scene8" goto:Scene8
-@choice "Scene9" goto:Scene9
-@choice "Credits" goto:Credits
 
-@stop
 
 @hidePrinter Dialogue
 @printer People 
@@ -29,7 +18,7 @@
 Який сенс в тому, щоб тягнути нитку існування з одного дня в інший?
 Насправді питання в тому, як догодити котам. Але почнемо з початку.
 
-
+@set PlayerName
 @input PlayerName summary:"Мене звуть"
 @stop
 

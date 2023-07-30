@@ -224,6 +224,9 @@ MonoBehaviour:
       guid: a3ffa39a24fa2b046811d29246a6bab6
   - Id: Scripts
     Resources:
+    - name: Scene0
+      pathPrefix: Scripts
+      guid: 73652541a69de5b4b817f63ec5c83aa0
     - name: Scene1
       pathPrefix: Scripts
       guid: 3c5b80c03bd2ab64da2921abb47f5e7e
@@ -251,6 +254,12 @@ MonoBehaviour:
     - name: Scene9
       pathPrefix: Scripts
       guid: caaf09b550e6fa84d9e7e4306f862f9e
+    - name: Scene0
+      pathPrefix: Scripts
+      guid: 73652541a69de5b4b817f63ec5c83aa0
+    - name: Scene10
+      pathPrefix: Scripts
+      guid: 1b69f6604b7783f42bcd57a8a9dac9ec
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
@@ -601,7 +610,7 @@ MonoBehaviour:
     - name: StreetEmbience
       pathPrefix: Audio
       guid: 042c76688325d6846af3e87add44ff02
-    - name: BasementWith DropsEmbience
+    - name: BasementWithDropsEmbience
       pathPrefix: Audio
       guid: 6edab2a391eccd643ab9e08ffeee6c69
     - name: LeafNoise
@@ -649,10 +658,10 @@ MonoBehaviour:
     - name: Purr4
       pathPrefix: Audio
       guid: 7deceebaed0a9194c88bab3be36d71e9
-    - name: ' PackageRustling'
+    - name: PackageRustling
       pathPrefix: Audio
       guid: ef66119832db98642a4eeeeef1cb257f
-    - name: ' PackageRustlingTrash'
+    - name: PackageRustlingTrash
       pathPrefix: Audio
       guid: 0e57957462d3b8c4a8b38f722f5f30a9
     - name: ManSteps
