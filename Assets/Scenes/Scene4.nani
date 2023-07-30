@@ -5,6 +5,8 @@
 @bgm Room1
 @back Sc3_Kitchen_1
 
+@set NightRelationships=0
+
 @char Night.def
 @char Day.def
 
@@ -265,6 +267,9 @@
             
             @goto .FlyAway
         #YouAreBetter
+
+        @set NightRelationships=NightRelationships+1
+
             Ніч посміхається, наскільки можна посміхнутися пащою з оголеними іклами, якими ти тримаєш здобич.
 
             @printer Night
@@ -330,6 +335,9 @@
 
 
             #YouCanEat
+
+            @set NightRelationships=NightRelationships+1
+
                 @printer Dialogue
                 {PlayerName}:  Можеш з'їсти її, якщо хочеш. Це нормально. Я нікому не розповім.
                 
@@ -544,6 +552,7 @@
 @printer Night
 Ніч:  Разом ми змінимо світ. Ми зробимо так, щоб люди та роніксоні жили в мирі. Дві цивілізації в чесних відносинах та дружбі. Ти віриш в це?
 [Вірю.]
+@set NightRelationships=NightRelationships+1
 
 @printer Night
 Ніч:  Можливо, це поки що лише бажання повірити. Але тих, хто хоче жити з людьми в рівності та дружбі, більше, ніж ретроградів типу Дня, який хоче бути хатнім котиком і паразитувати на вашій шкурі.
