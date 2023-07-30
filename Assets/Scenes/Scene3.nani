@@ -4,7 +4,7 @@
 @char Day.interesting
 
 @printer Day
-` Мро-о-урррф!
+Мро-о-урррф!
 
 @printer Dialogue
 {PlayerName}: Привіт ще раз, День! Що-що ти сказав?
@@ -455,8 +455,10 @@
 @printer Dialogue
 {PlayerName}:  Хм…
 
+@set dayFeeded=0
+
 @choice "Не годувати Дня" goto:.DontFeedDay
-@choice "Нагодувати Дня" goto:.FeedDay
+@choice "Нагодувати Дня" goto:.FeedDay set:dayFeeded=1
 @stop
 
 #DontFeedDay
@@ -540,7 +542,7 @@
 
 				
 #FeedDay
-
+@set dayFeeded=1
 Шафка висить над стільницею. Можна застрибнути на стільницю. Встати на задні лапи і спробувати відкрити.
 
 @choice "Застрибнути на стільницю"
@@ -614,14 +616,15 @@
 @set lumpofwool=0
 @set juiceTube=0
 @set twobills=0
+@set HairElasticBand=0
 #ReachBedroom
 
 @choice "Грудка шерсті." goto:.LumpOfWool if:lumpofwool=0
 @choice "Трубочкою для сока." goto:.JuiceTube if:juiceTube=0
 @choice "Двома стогривневими купюрами" goto:.TwoBills if:twobills=0 
 
-@choice "Гумка для волосся." goto:.HairElasticBand
-@choice "Мотузка зміюка" goto:.SnakeRope
+@choice "Гумка для волосся." goto:.HairElasticBand set:HairElasticBand=1
+@choice "Мотузка зміюка" goto:.SnakeRope 
  @stop
 
 #LumpOfWool
