@@ -251,9 +251,6 @@ MonoBehaviour:
     - name: Scene9
       pathPrefix: Scripts
       guid: caaf09b550e6fa84d9e7e4306f862f9e
-    - name: Credits
-      pathPrefix: Scripts
-      guid: e3b2c6c361a64c64fb1fa6be13c2e53f
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
