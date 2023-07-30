@@ -1,5 +1,5 @@
 @back Sc6_Basement
-@bgm Market
+@bgm BasementWith DropsEmbience
 
 @char Gruzd.surprised
 
@@ -25,6 +25,7 @@
 @printer Thoughts
 День робить артистичний пас лапою перед своєю мордою, і Груздь відлітає до дальньої стіни.
 
+@hide Gruzd
 @sfx MagicVzukh
 
 @printer Thoughts
