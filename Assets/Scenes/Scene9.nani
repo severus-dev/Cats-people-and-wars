@@ -163,8 +163,8 @@
 Що ж, настав час обирати. Що я маю зробити?
 
 @choice "Розповісти людям правду." goto:.Truth
-@choice "Зробити вигляд, що нічого не було." if:DayRelationships==false goto:.NothingHappened
-@choice "Знайти спосіб подолати Ронідора, не руйнуючи співіснування людей і котів." if:DayRelationships==true goto:StatusQuo
+@choice "Зробити вигляд, що нічого не було." if:DayRelationships<=4 goto:.NothingHappened
+@choice "Знайти спосіб подолати Ронідора, не руйнуючи співіснування людей і котів." if:DayRelationships>=5 goto:StatusQuo
 @choice "Розказати Ронідорові про Сили Спротиву." goto:.Snitch
 @choice "Пограбувати зоомагазин." goto:.RobStore
 @stop
