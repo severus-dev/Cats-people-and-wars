@@ -682,9 +682,8 @@
 
     #SayItNight
     @set nightAnswer=true
-    ;якщо подружилися з Ніччю (певна кількість балів довіри - ще треба порахувати)
     
-    @if nightIsFriend==true
+    @if NightRelationships>=3
         @char Night.despair
         @printer Night
         Ніч: Тому що я вірю в тебе! Я завжди в тебе вірила.
@@ -711,7 +710,7 @@
 
         @goto .LightIsMoving
 
-    ;якщо ми НЕ подружилися з Ніччю:
+    
 	@else
         @char Night.interesting
         @printer Night
