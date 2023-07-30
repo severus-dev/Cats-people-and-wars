@@ -312,12 +312,12 @@ MonoBehaviour:
     - name: upset
       pathPrefix: Characters/Chaos
       guid: 942375318dbf26b478462caf2b905d72
-    - name: "\u0441at"
-      pathPrefix: Characters/Chaos
-      guid: ebdaa7e17782fc94e872d8096a2cc29a
     - name: sad
       pathPrefix: Characters/Chaos
       guid: 942375318dbf26b478462caf2b905d72
+    - name: cat
+      pathPrefix: Characters/Chaos
+      guid: ebdaa7e17782fc94e872d8096a2cc29a
   - Id: Characters/9699334a-eacd-4e31-aa0b-1e1b316fd94d
     Resources:
     - name: def
@@ -367,7 +367,7 @@ MonoBehaviour:
     - name: mad
       pathPrefix: Characters/Night
       guid: 27b735b9a8447f049a1acdcdf29e3d75
-    - name: smilyng
+    - name: smile
       pathPrefix: Characters/Night
       guid: af4383fcc1b501b4e9f4581175e291cc
   - Id: Characters/ca835534-926b-4fe0-bc7e-88581258f464

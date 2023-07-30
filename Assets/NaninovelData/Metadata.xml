@@ -14,6 +14,8 @@
           &lt;string&gt;smile&lt;/string&gt;
           &lt;string&gt;tricky&lt;/string&gt;
           &lt;string&gt;upset&lt;/string&gt;
+          &lt;string&gt;sad&lt;/string&gt;
+          &lt;string&gt;cat&lt;/string&gt;
         &lt;/Appearances&gt;
         &lt;Description /&gt;
       &lt;/Actor&gt;
@@ -27,6 +29,7 @@
           &lt;string&gt;sad&lt;/string&gt;
           &lt;string&gt;smile&lt;/string&gt;
           &lt;string&gt;surprised&lt;/string&gt;
+          &lt;string&gt;cat&lt;/string&gt;
         &lt;/Appearances&gt;
         &lt;Description /&gt;
       &lt;/Actor&gt;
@@ -40,6 +43,8 @@
           &lt;string&gt;interesting&lt;/string&gt;
           &lt;string&gt;smile&lt;/string&gt;
           &lt;string&gt;thinking&lt;/string&gt;
+          &lt;string&gt;despair&lt;/string&gt;
+          &lt;string&gt;mad&lt;/string&gt;
         &lt;/Appearances&gt;
         &lt;Description /&gt;
       &lt;/Actor&gt;
@@ -562,6 +567,14 @@
         &lt;Type&gt;Characters/Chaos&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;upset&lt;/Path&gt;
+        &lt;Type&gt;Characters/Chaos&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;cat&lt;/Path&gt;
+        &lt;Type&gt;Characters/Chaos&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;def&lt;/Path&gt;
         &lt;Type&gt;Characters/Gruzd&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -586,6 +599,10 @@
         &lt;Type&gt;Characters/Gruzd&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;cat&lt;/Path&gt;
+        &lt;Type&gt;Characters/Gruzd&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;def&lt;/Path&gt;
         &lt;Type&gt;Characters/Night&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -607,6 +624,14 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;thinking&lt;/Path&gt;
+        &lt;Type&gt;Characters/Night&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;despair&lt;/Path&gt;
+        &lt;Type&gt;Characters/Night&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;mad&lt;/Path&gt;
         &lt;Type&gt;Characters/Night&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

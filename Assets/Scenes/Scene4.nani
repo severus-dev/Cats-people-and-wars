@@ -291,7 +291,7 @@
     @choice "Слід визнати, ти краща мисливиця." goto:.YouAreBetter
     @stop
         #MyFly
-            @sfxGrowls2
+            @sfx Growls2
 
             @printer Night
             @char Night.mad

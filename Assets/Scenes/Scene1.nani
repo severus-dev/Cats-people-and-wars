@@ -1,6 +1,8 @@
 @back BlackBg
 ;@lock CG/Sc1_Kitchen
 ;лалалал
+@stopSfx
+@stopBgm
 @sfx Steps
 @bgm Cicadas
 
