@@ -10,6 +10,8 @@
 @printer Gruzd
 ???: Так-так-так, милий котику! Хто ти і що ти тут забув на моїй вулиці?
 
+@sfx AngryMeow
+
 @printer Dialogue
 {PlayerName}: На твоїй вулиці?
 
@@ -47,6 +49,8 @@
 	???: Ти це мені?
 
 	@goto .GrabEar
+
+@sfx AskMeow
 
 @printer Thoughts
 Він хапає мене зубами за вухо й тягне в бік маленького віконця, яке виявляється напівпідвалом.
@@ -90,6 +94,8 @@
 	@set Introduced=false
 
 	@goto .IntroGruzd
+
+@sfx Steps
 
 #IntroGruzd
 @char Gruzd.agressive
@@ -340,6 +346,7 @@
 
 Груздь: А люди! Ти подивись на людей. Теж зазвичай домашні котики.
 
+@char Gruzd.surprised
 Груздь: Вони не можуть жити без своїх володарів — ким би ті не були. Майже всі люди знаходять собі володарів.
 
 @char Gruzd.pockerface
@@ -385,6 +392,8 @@
 	Груздь: Принеси мені їжу, загадковий незнайомцю, — і я візьму тебе під своє крило.
 @endIf
 
+@printer Gruzd
+@char Gruzd.def
 Груздь: Це твоє випробувальне завдання. Впораєшся самотужки — і тебе навчить життю сам пан Груздь.
 
 @printer Dialogue
@@ -399,5 +408,9 @@
 @printer Gruzd
 @char Gruzd.agressive
 Груздь: Хіба я тобі не казав, що буде, якщо не принесеш мені їжу?
+
+@hide Gruzd
+
+@back BlackBg
 
 @goto Scene7
