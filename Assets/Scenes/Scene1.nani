@@ -4,6 +4,10 @@
 @sfx Steps
 @bgm Cicadas
 
+@char Chaos.def
+CHaos
+@hide Chaos
+
 @hidePrinter
 @hidePrinter Dialogue
 @printer People 
