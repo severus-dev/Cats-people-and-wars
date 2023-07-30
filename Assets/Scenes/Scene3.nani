@@ -225,7 +225,7 @@
 @char Day.bitch
 День: Ну все, вона пішла.
 
-@bgm Kitchen2
+@bgm Sc3_Kitchen_3_2_ONEegg
 
 @printer Dialogue
 {PlayerName}:  Хто?
