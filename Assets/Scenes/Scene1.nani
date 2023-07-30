@@ -4,15 +4,21 @@
 @sfx Steps
 @bgm Cicadas
 
-@char Chaos.def
-CHaos
-@hide Chaos
+@choice "Scene2" goto:Scene2
+@choice "Scene3" goto:Scene3
+@choice "Scene4" goto:Scene4
+@choice "Scene5" goto:Scene5
+@choice "Scene6" goto:Scene6
+@choice "Scene7" goto:Scene7
+@choice "Scene8" goto:Scene8
+@choice "Scene9" goto:Scene9
+@choice "провдовжити 1"
+@stop
 
-@hidePrinter
 @hidePrinter Dialogue
 @printer People 
 
-@toast "TEST QUEST UNLOCKED" 
+;@toast "TEST QUEST UNLOCKED" 
 
 Ви колись думали про те, в чому головне питання життя? 
 Кожного дня ти прокидаєшся, йдеш на роботу, займаєшся своєю справою і повертаєшся додому.
