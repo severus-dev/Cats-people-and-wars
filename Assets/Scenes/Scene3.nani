@@ -328,6 +328,8 @@
 @printer Day
 День: Це все складно пояснити людині, яка не посвячена в шаманські таїнства. Але саме в цій формі ти можеш вивчити свої життєві уроки.
 
+@set DayRelationships=DayRelationships+1
+
 @choice "Не вірю." goto:.IDontBelieve
 @choice "Я вірю…" goto:.IBelieve
 @stop
@@ -721,6 +723,8 @@
     @printer Dialogue
     {PlayerName}:  День! Допоможи мені, треба потягнути за обидва кінці мотузки одночасно!
 
+    @set DayRelationships=DayRelationships+1
+
     МУЗ: Стук котячих лапок об деревяний стіл
     
     День застрибує на шухляду, і ми беремося за різні кінці мотузки зубами, й відтягуємо його, що є сили. День, значно більший за мене, легко перетягує мотузку на свій бік.
@@ -798,6 +802,8 @@
     @printer Dialogue
     {PlayerName}:  Мра-мммау!
 
+    @set DayRelationships=DayRelationships+1
+
     МУЗ: Котик включив свій трактор. секунд 7
 
     @printer Day
@@ -809,6 +815,8 @@
 
     @printer Dialogue
     {PlayerName}:  От би хтось придумав таке для людей! Увесь ресторанний бізнес пішов би коту під хвіст.
+
+    @set DayRelationships=DayRelationships+1
 
     @printer Day
     День: Псу. Ти починаєш розуміти життя, людська істото! Але якби ви, люди, не ходили по ресторанах, в декого було б значно менше часу на особисте життя.
@@ -855,6 +863,8 @@
 
 #MyTotem
 
+@set DayRelationships=DayRelationships+1
+
     День киває, радіючи, що урок засвоєно.
 
     @goto .NightWillComeSoon
@@ -888,12 +898,14 @@
     @printer Day
     День: Упс, вона тут. Не дивись назад. Роби вигляд, що ми говоримо про їжу!
 
-    @choice "Та що ти кажеш, консерви це делікатес?" goto:.Delicacy
+    @choice "Та що ти кажеш, невже консерви це делікатес?" goto:.Delicacy
     @choice "Ах ти хитрий підлий…" goto:.SneakyBastard
     @stop
 
     #Delicacy
-        
+
+        @set DayRelationships=DayRelationships+1
+
         @printer Day
         День: О так, насправді ваші чолтінські кухари готують смачно, в цьому чолтіні неперевершені. Але ті, які розробляють вологий корм, роблять найсмачнішу їжу в світі.
 
