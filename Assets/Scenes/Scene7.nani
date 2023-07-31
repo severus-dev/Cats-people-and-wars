@@ -173,6 +173,9 @@
 
 @set FriendChaos=true
 
+	@sfx Purr4
+	@toast "Вітаємо! Ви подружилися з Хаосом."
+
 	@printer Dialogue
 	{PlayerName}: Але ти так хотів її з'їсти, то ж може розділимо? 
 
@@ -495,6 +498,8 @@
 #Need
 
 @set FriendChaos=true
+	@sfx Purr4
+	@toast "Вітаємо! Ви подружилися з Хаосом."
 
 	@printer Chaos
 	@char Chaos.upset
@@ -510,6 +515,9 @@
 #Life
 
 @set FriendChaos=true
+
+	@sfx Purr4
+	@toast "Вітаємо! Ви подружилися з Хаосом."
 
 	@printer Chaos
 	@char Chaos.def	
@@ -684,6 +692,9 @@
 		#PeopleBad
 			@set FriendGruzd=true
 
+			@sfx Purr4
+			@toast "Вітаємо! Груздь вважає вас своїм другом."
+
 			@printer Gruzd
 			@char Gruzd.def			
 			Груздь: Дай подумати.
@@ -782,6 +793,10 @@
 	Груздь: А знаєш що, ти мені подобаєшся. Тому що в тебе принаймні є гордість. Інші б на твоєму місці просто віддали ту їжу мені.
 
 	@set FriendGruzd=true
+
+@sfx Purr4
+@toast "Вітаємо! Груздь вважає вас своїм другом."
+
 	@char Gruzd.def
 	Груздь: Такі, як ти заслуговують на повагу пана Груздя.
 
