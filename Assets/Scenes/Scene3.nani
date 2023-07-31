@@ -745,7 +745,9 @@
 #HairElasticBand
 
     @printer Thoughts
-    Гумка для волосся! Цікава ідея… 
+    Гумка для волосся! Цікава ідея…
+
+    @hide Day
 
     @back BlackBg
     @sfx Scraping1
@@ -840,6 +842,8 @@
 	@printer Thoughts
     Мотузка! Цікава ідея…
 
+    @hide Day
+
     @back BlackBg
     @sfx Scraping1
 
@@ -900,7 +904,7 @@
         @char Day.meh
         День: Тримай.
 
-        @sfx Fell
+        @sfx ScatteredFeed
 
         @printer Thoughts
         Корм в червоній упаковці з зображенням яловичини падає на підлогу й розсипається, частково потрапляючи в яйце. Поруч падає рожева упаковка з зображенням лосося.
@@ -914,7 +918,7 @@
     
     #Blue2
 
-        @sfx Fell
+        @sfx ScatteredFeed
 
         @printer Thoughts
         Корм в синій упаковці з зображенням качки падає на підлогу й розсипається, частково потрапляючи в яйце. Поруч падає рожева упаковка з зображенням лосося.
@@ -929,7 +933,7 @@
 
     #ChooseByYourself
 
-        @sfx Fell
+        @sfx ScatteredFeed
 	
         @printer Thoughts
         На підлогу падає рожева упаковка. Корм розсипається та наповнює кухню ароматом свіжорозсипаного котячого корму.
