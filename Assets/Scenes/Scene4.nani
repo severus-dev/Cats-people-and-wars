@@ -330,6 +330,8 @@
     #YouAreBetter
 
         @set NightRelationships=NightRelationships+1
+        @sfx Purr4
+        @toast "Ніч радіє, що ви визнали її мистецтво полювання."
 
         @printer Thoughts
         Ніч посміхається, наскільки можна посміхнутися пащою з оголеними іклами, якими ти тримаєш здобич.
@@ -429,6 +431,8 @@
             #YouCanEat
 
                 @set NightRelationships=NightRelationships+1
+                @sfx Purr4
+                @toast "Ніч радіє, що можна не приховувати свої слабкості від вас."
 
                 @printer Dialogue
                 {PlayerName}: Можеш з'їсти її, якщо хочеш. Це нормально. Я нікому не розповім.
@@ -437,6 +441,9 @@
 
                 @printer Thoughts
                 Кішка дивиться на мене вдячно своїми зеленими очами, а потім я чую хрускіт мухи, яку вона безсоромно з'їдає.
+
+                @sfx TwoFriendlyMeow
+                @toast "Досягнення: Винувате Задоволення"
 
                 @printer Night
                 @char Night.smile
@@ -468,6 +475,9 @@
     @printer Dialogue
     {PlayerName}: А вона смачна!
 
+    @sfx TwoFriendlyMeow
+    @toast "Досягнення: Кіт-Гурман"
+
     @printer Thoughts
     Ніч дивиться на мене як на неслухняну дитину.
 
@@ -491,6 +501,10 @@
 
     @printer Thoughts
     Я застрибую на підвіконня та відпускаю муху на волю. Та піднімається вище і летить в бік мусорних баків. Сяє сонце, а Ніч посміхається.
+
+    @set NightRelationships=NightRelationships+1
+    @sfx Purr4
+    @toast "Ніч вважає ваш вчинок шляхетним."
 
     @printer Night
     @char Night.smile
@@ -764,15 +778,20 @@
     Ніч: Хоча, особисто на мою думку, ви й так достатньо натерпілися від нашого паразитичного впливу.
 
     @char Night.smile
-    Ніч: Разом ми змінимо світ. Ми зробимо так, щоб люди та роніксоні жили в мирі. Дві цивілізації в чесних відносинах та дружбі. Ти віриш в це?
+    Ніч: Разом ми змінимо світ. Ми зробимо так, щоб люди та роніксоні жили в мирі. Дві цивілізації в чесних відносинах та дружбі. Ти віриш, що ми так змогли б?
     
-    @choice "Вірю." goto:.IbelieveYou
-    @choice "Не вірю." goto:.IDontBelieveYou
+    @choice "Врешті решт, світ має стати краще. Тому" goto:.IbelieveYou
+    @choice "Насправді в це складно повірити." goto:.IDontBelieveYou
     @stop 
 
     #IbelieveYou
 
         @set NightRelationships=NightRelationships+1
+        @sfx Purr4
+        @toast "Ніч радіє, що у вас є спільні погляди."
+
+        @printer Dialogue
+        {PlayerName}: Мені здається, що утопії на серйозних щах це дуже розумна штука.
 
         @printer Night
         @char Night.thinking
@@ -784,11 +803,14 @@
     
     #IDontBelieveYou
 
+        @printer Dialogue
+        {PlayerName}: Насправді в людей і котів надто складна історія стосунків...
+
         @printer Night
         @char Night.thinking
         Ніч: Можливо, тобі важко повірити, що ті, хто все життя використовували твій вид, здатні залишити вас у спокої. 
         
-        Ніч: Але тих, хто однієї думки зі мною, дійсно багато.
+        Ніч: Але тих, хто однієї думки зі мною, дійсно багато. Ми більше не хочемо паразитувати на вашій любові.
 
         @goto .DayToldYouALot
 
