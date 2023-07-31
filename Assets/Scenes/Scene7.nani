@@ -474,6 +474,10 @@
 	@goto Scene8
 
 #ClyockaGruzd
+
+@toast: "Досягнення: Накорми Голодного"
+@sfx TwoFriendlyMeow
+
 @printer Dialogue
 {PlayerName}: Вибач, Хаосе, але ця кльоцка не для тебе. Декому вона потрібна більше.
 
@@ -600,6 +604,10 @@
 	@stop
 
 	#Touching
+
+		@toast: "Досягнення: Чуттєвий Котик"
+		@sfx TwoFriendlyMeow
+
 		@printer Thoughts
 		З'ївши кльоцку й облизнувши здоровезні ікла (одне зламане), Груздь піднімає на мене голову.
 
