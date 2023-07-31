@@ -67,7 +67,8 @@
 #North
 	@set north=true
 	@if memory==false
-		@toast "Перший приз за феноменальну пам'ять!"
+		@printer Thoughts
+		@toast "Досягнення: Перший приз за феноменальну пам'ять!"
 	@else
 	@endIf
 
