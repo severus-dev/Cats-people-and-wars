@@ -6,6 +6,8 @@
 @back Sc3_Kitchen_1
 @bgm DayTheme
 
+@sfx Purr4
+
 @char Day.interesting
 
 @printer Day
