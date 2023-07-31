@@ -38,7 +38,7 @@
 
     @goto .WatchingAtStrangers
 
-#IwantBack
+#IWantBack
 
     Я хочу назад, в своє нормальне життя, до своїх нормальних котиків.
 
@@ -686,5 +686,5 @@
 
 Пташка трохи порхає вздовж вулиці, а я її переслідую. Аж раптом…
 
-@hide Chaos
+@hideChars
 @goto Scene6

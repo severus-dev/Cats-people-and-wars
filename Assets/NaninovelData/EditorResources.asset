@@ -166,6 +166,9 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: PostGameTitle
+      pathPrefix: UI
+      guid: e823e3ba4d4173841a2e8c5f77e9d6ee
   - Id: Backgrounds/1b44676d-f2fa-41c3-b005-1aea6b4f8ba3
     Resources:
     - name: 'MainMenuBackground '
@@ -616,7 +619,7 @@ MonoBehaviour:
     - name: Stones
       pathPrefix: Audio
       guid: 2df13f35c47efc54b812206c121420c2
-    - name: Singing Birdie
+    - name: SingingBirdie
       pathPrefix: Audio
       guid: 653de3bd104d8544ca9896b82b21d59f
     - name: StreetEmbience
@@ -703,7 +706,7 @@ MonoBehaviour:
     - name: EnthusiasmMeow
       pathPrefix: Audio
       guid: 05a52abb05a81214c884126e5641ffd2
-    - name: IrritatedMeow
+    - name: CrazyMeow
       pathPrefix: Audio
       guid: 4212cb132bfd687489553f129eba213b
     - name: EnthusiasmMeow2

@@ -32,6 +32,7 @@
 
 @hideAll
 
-@showUI TitleUI
+@showUI PostGameTitle
+
 
 ;@goto CreditsUI

@@ -1,4 +1,6 @@
 @stopBgm
+
+@hideChars
 @unlock CG/Sc6_Basement
 @back Sc5_Outside2_1_TWOvasons
 @bgm Street
@@ -10,6 +12,7 @@
 @bgm HrusdTheme
 
 @printer Gruzd
+@char Gruzd.agressive
 ???: Так-так-так, милий котику! Хто ти і що ти тут забув на моїй вулиці?
 
 @sfx AngryMeow
@@ -411,7 +414,7 @@
 @char Gruzd.agressive
 Груздь: Хіба я тобі не казав, що буде, якщо не принесеш мені їжу?
 
-@hide Gruzd
+@hideChars
 
 @back BlackBg
 

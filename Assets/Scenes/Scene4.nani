@@ -140,6 +140,8 @@
         @goto .TellWhyYouHere
 
 #TellWhyYouHere
+@hideChars
+@char Night.def
 @printer Thoughts
 Ніч витримує паузу, пильно та уважно придивляється до мене. Здається, вона мене вивчає.
 

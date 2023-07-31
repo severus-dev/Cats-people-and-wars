@@ -18,12 +18,13 @@
 
 А наступної миті на те місце, звідки мене знесло хвилею самозахисного ухиляння, зістрибує величезний лахматий кіт.
 
-@char Day.def look:Right
+@char Day.def look:Right pos:80
+@char Gruzd.surprised look:Right pos:30
 @printer Day 
 День: О гравець, ти дійшов до кульмінації своєї духовної пригоди, ти зіткнувся з демоном у цій зловісній грі сомнамбулічних ілюзій!
 
-@char Gruzd.surprised look:Right pos:30
-@char Day.bitch
+
+@char Day.bitch 
 @printer Day
 День: Ти маєш подолати цього демона, і твій тотем прийшов тобі на допомогу!
 
@@ -270,7 +271,7 @@
 @sfx CatJumped
 
 @printer Thoughts
-@char Chaos.def
+@char Chaos.def look:Left
 За мить Хаос вже стоїть на підлозі, а у віконце заглядує голова чорної кішки.
 
 @sfx AskMeow
