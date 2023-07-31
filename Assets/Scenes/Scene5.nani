@@ -78,11 +78,18 @@
         @stop
         
         #ThisNight
+
+            @sfx TwoFriendlyMeow
+            @toast "Досягнення: "Смерті Немає"
+
             @printer Dialogue
             {PlayerName}: Допоможіть знайти вихід у реальний світ!
             @goto WhyAreYouCrying
 
         #IAmHuman
+            @sfx TwoFriendlyMeow
+            @toast "Досягнення: Людокіт"
+
             @printer Dialogue
             {PlayerName}: Розумієте? Я людина, перетворена на кота!
             @goto WhyAreYouCrying
