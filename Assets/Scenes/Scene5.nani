@@ -9,6 +9,9 @@
 
 @bgm Street
 
+@set AmIHuman=0
+@set AmIGhost=0
+
 @printer Thoughts
 Ні, не на тротуар — я зависаю на дереві, тримаючись усіма чотирма лапами головою вниз.
 
@@ -28,18 +31,18 @@
 
 @back Sc5_Outside3_inBushes
 
-@choice "Коли ж припиниться це божевілля?" goto:.IWantBack
-@choice "Де День?" goto:.WhereIsTheDay
+@choice "Я маю допомогти Ночі, але вона небезпечна?" goto:.IWantBack
+@choice "Де мій тотем, де День?" goto:.WhereIsTheDay
 @stop 
 
 #WhereIsTheDay
-
+@set AmIHuman=AmIHuman+1
     Якщо він і справді мій астральний тотем, то він єдиний, хто може мене врятувати.
 
     @goto .WatchingAtStrangers
 
 #IwantBack
-
+@set AmIGhost=AmIGhost+1
     Я хочу назад, в своє нормальне життя, до своїх нормальних котиків.
 
     @goto .WatchingAtStrangers
@@ -79,6 +82,8 @@
         
         #ThisNight
 
+        @set AmIHuman=AmIGhost+1
+
             @sfx TwoFriendlyMeow
             @toast "Досягнення: "Смерті Немає"
 
@@ -87,6 +92,7 @@
             @goto .WhyAreYouCrying
 
         #IAmHuman
+            @set AmIHuman=AmIHuman+1
             @sfx TwoFriendlyMeow
             @toast "Досягнення: Людокіт"
 
@@ -139,11 +145,7 @@
 @char Chaos.def
 На підвіконня першого поверху виходить товстий сусідський кіт Жора.
 
-@choice "Або потойбічна сутність, схожа на нього?" goto:.AfterChaosEnters
-@choice "Або нащадок прибульців, який ним прикидається?" goto:.AfterChaosEnters
-@stop
-
-#AfterChaosEnters
+Або потойбічна сутність, схожа на нього? Чи нащадок прибульців, який ним прикидається?"
 
 Ким би він не був, він вмивається і виглядає цілком безпечно. 
 
@@ -396,6 +398,7 @@
 @stop
 
 #NightWords
+    @set AmIHuman=AmIHuman+1
 
     @printer Dialogue
     {PlayerName}: І все ж таки ти прибулець?
@@ -421,6 +424,8 @@
     @goto .WhatsGoingOn
 
 #DayWords
+
+    @set AmIGhost=AmIGhost+1
 
     @printer Dialogue
     {PlayerName}: То значить, я маю вірити Дню? Адже ти теж підіграєш Ночі, як і День, і говориш загадками.
@@ -636,15 +641,16 @@
     @char Chaos.def
     Хаос: І що ти починаєш розуміти?
 
-    @choice "Праксіологічну суб'єктивно-об'єктивно-темпоральну природу ідеосинкретичної реальності" goto:.Reality
-    @choice "Квантову теорію поля, та побудову цього світу" goto:.QuantumWorld
+    @choice "Праксіологічну суб'єктивно-об'єктивно-темпоральну природу ідеосинкретичної реальності астрального." goto:.Reality
+    @choice "Квантову теорію поля, побудову світу, де всі люди раби котів." goto:.QuantumWorld
     @choice "Швидкоплинність життя." goto:.TimeInLife
     @stop
 
     #Reality
 
-        @toast "Разблоковано досягнення: Божевільний Геній " 
-
+        @toast "Досягнення: Божевільний Геній " 
+        @sfx TwoFriendlyMeow
+        @set AmIGhost=AmIghost+1
         @printer Chaos
         @char Chaos.upset
         Хаос: Ой ні, я не розумію тих слів. Надто складні матерії для мене. Тобі краще поговорити про це з кимось іншим.
@@ -652,18 +658,27 @@
         @goto .IwantToTellYouSomething
 
     #QuantumWorld
+        @set AmIHuman=AmIHuman+1
+        @if AmIGhost>=4
+        ..
+        @printer Chaos
+        @char Chaos.smile
+        Хаос: Тобі на здається, що можливо, Нічь не так вже й права?
 
-        @toast "Разблоковано досягнення: Учень Ейнштейна" 
-    
+        @toast "Досягнення: Однодумець Ночі"
+        @sfx TwoFriendlyMeow
+
+
         @printer Chaos
         @char Chaos.upset
         Хаос: Ой ні, я не розумію тих слів. Надто складні матерії для мене. Не певен, що хоч хтось в світі її розуміє...
-
+        
         @goto .IwantToTellYouSomething
 
     #TimeInLife
 
-        @toast "Разблоковано досягнення: Учень Будди" 
+        @toast "Досягнення: Учень Будди" 
+        @sfx TwoFriendlyMeow
 
         @printer Chaos
         @char Chaos.smile
