@@ -769,6 +769,8 @@
     @printer Day
     @char Day.surprised
     Ура, тобі вдалося відкрити двері! Тепер знайди корм із лососем і зкинь його сюди.
+
+    @sfx ScatteredFeed
     
     @char Day.def
     @printer Thoughts
@@ -800,9 +802,11 @@
     @stop
     
     #Red1
-        
+        @sfx ScatteredFeed
+
         @printer Thoughts
         Я зкидаю пачку корма з яловичиною, і він розсипається, частково змішуючись із лососевим кормом.
+	
 
         @printer Day
         @char Day.misunderstood
@@ -822,8 +826,9 @@
         @goto .Decission
 
     #Blue1
+	@sfx ScatteredFeed
 	    @printer Thoughts
-        Я зкидаю пачку корма з качкою, і він розсипається, частково змішуючись із лососевим кормом.
+       Я зкидаю пачку корма з качкою, і він розсипається, частково змішуючись із лососевим кормом.
 	
 	    @printer Day
         @char Day.misunderstood
