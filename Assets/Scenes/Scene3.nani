@@ -70,6 +70,8 @@
         @char Day.bitch 
         @printer Day
         День: Як хочеш.
+	@sfx TwoFriendlyMeow
+	@toast "Досягнення: Кошатник - це не про мене"
 
         @goto .WhereIsNight
 
@@ -195,6 +197,8 @@
 @stop
 
 #BiteMe
+    @sfx TwoFriendlyMeow
+    @toast "Досягнення: Вкуси мене котик"
     @printer Thoughts
     День набижається, розкриває пащу, але в останню мить, коли я вже чекаю на біль від укусу за вухо, каже:
 
@@ -276,13 +280,9 @@
 @char Day.meh
 День: І з цього часу я охоронятиму тебе, тому що вслід за тими, хто перевершив смерть, ідуть божевільні духи, що підпали вірі у власні фантазії.
 
-@choice "Що значить «ті, хто перевершили смерть»?" goto:.MeaningOfDeathWinners
-@choice "Ви тут всі трохи "того", так?" goto:.AreYouMad
-@choice "А чим докажеш?" goto:.CanYouProve
-@choice "Здається, я тобі починаю вірити…" goto:.IBelieveYou
-@stop
+@printer Thoughts
+Що значить «ті, хто перевершили смерть»?
 
-#MeaningOfDeathWinners
     @char Day.meh
     @printer Day
     День: А те й означає, що цієї ночі мала статися твоя смерть від перенавантажень, твоя каросі.
@@ -295,7 +295,12 @@
     День: Нажаль, не всім тут можна вірити. Деякі духи не змирилися зі своєю долею і переконали себе в тому, що вони справжні. Я кажу про Ніч.
     День: Мені шкода її, тому я їй підіграю в усіх цих її фантазіях про космічних котів.
 
-    @goto .Friday
+
+@choice "Ви тут всі трохи "того", так?" goto:.AreYouMad
+@choice "А чим докажеш?" goto:.CanYouProve
+@choice "Здається, я тобі починаю вірити…" goto:.IBelieveYou
+@stop
+
 
 #AreYouMad
     @char Day.meh
@@ -610,6 +615,10 @@
             @stop
             
         #DontFeed3
+
+	   @sfx TwoFriendlyMeow
+	   @toast "Досягнення: Принциповий Котик"
+
             @printer Dialogue
             {PlayerName}: Але таке моє рішення. 
             
@@ -865,6 +874,10 @@
 
     @choice "Покликати Дня."
     @stop
+
+    @sfx TwoFriendlyMeow
+    @toast "Досягнення: Разом до перемоги"
+
 
     @printer Dialogue
     {PlayerName}: День! Допоможи мені, треба потягнути за обидва кінці мотузки одночасно!
