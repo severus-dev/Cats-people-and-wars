@@ -103,8 +103,7 @@
 
 Винесу сміття.
 
-@hide Day
-@hide Night
+@hideChars
 @sfx PackageRustling
 @back Sc9_Outside3_HumanPersp
 
@@ -128,8 +127,7 @@
 @sfx ManSteps
 Викинувши сміття, я йду назад у свою квартиру. Повертаюся до свого життя. Чим би воно не було "насправді".
 
-@hide Chaos
-@hide Gruzd
+@hideChars
 @back Sc8_Kitchen
 
 @char Day.cat pos:30,15
@@ -165,7 +163,7 @@
 
 @choice "Розповісти людям правду." goto:.Truth
 @choice "Зробити вигляд, що нічого не було." if:DayRelationships<=4 goto:.NothingHappened
-@choice "Знайти спосіб подолати Ронідора, не руйнуючи співіснування людей і котів." if:DayRelationships>=5 goto:StatusQuo
+@choice "Знайти спосіб подолати Ронідора, не руйнуючи співіснування людей і котів." if:DayRelationships>=5 goto:.StatusQuo
 @choice "Розповісти Ронідорові про Сили Спротиву." goto:.Snitch
 @choice "Пограбувати зоомагазин." goto:.RobStore
 @stop
