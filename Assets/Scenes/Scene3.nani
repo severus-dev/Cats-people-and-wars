@@ -230,7 +230,7 @@
 @char Day.bitch
 День: Ну все, вона пішла.
 
-@bgm Sc3_Kitchen_3_2_ONEegg
+;@back Sc3_Kitchen_3_2_ONEegg
 
 @printer Dialogue
 {PlayerName}:  Хто?
@@ -451,10 +451,10 @@
 @printer Day
 День: Ні! Не вір оманливому аромату бутерброда.
 
+@hideChars
 @choice "Застрибнути на стіл."
 @stop
 
-@hide Day
 @back Sc3_Kitchen_3_1_TWOeggs
 @printer Thoughts
 Я відштовхуюся сильними лапами і злітаю вгору вдвічі вище за мене самого. За мить я вже на столі. День слідує за мною.
@@ -462,7 +462,7 @@
 @printer Dialogue
 {PlayerName}: От би ковбасу з бутера вкрасти… Стоп, це ж мій бутер.
 
-@char Day.meh
+@char Day.meh pos:70 look:Right
 @printer Day
 День: В тебе прокидаються астральні інстинкти, друже! Це добре.
 

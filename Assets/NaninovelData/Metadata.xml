@@ -45,6 +45,7 @@
           &lt;string&gt;thinking&lt;/string&gt;
           &lt;string&gt;despair&lt;/string&gt;
           &lt;string&gt;mad&lt;/string&gt;
+          &lt;string&gt;nightday&lt;/string&gt;
         &lt;/Appearances&gt;
         &lt;Description /&gt;
       &lt;/Actor&gt;
@@ -644,6 +645,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;mad&lt;/Path&gt;
+        &lt;Type&gt;Characters/Night&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;nightday&lt;/Path&gt;
         &lt;Type&gt;Characters/Night&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

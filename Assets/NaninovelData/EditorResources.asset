@@ -382,6 +382,9 @@ MonoBehaviour:
     - name: smile
       pathPrefix: Characters/Night
       guid: af4383fcc1b501b4e9f4581175e291cc
+    - name: nightday
+      pathPrefix: Characters/Night
+      guid: 5f70719227aec554cae97302469e3e89
   - Id: Characters/ca835534-926b-4fe0-bc7e-88581258f464
     Resources:
     - name: def

@@ -6,7 +6,7 @@
 @sfx Steps
 @bgm Cicadas
 
-
+@bgm MainThemeMajor
 
 @hidePrinter Dialogue
 @printer People 
@@ -20,7 +20,6 @@
 Який сенс в тому, щоб тягнути нитку існування з одного дня в інший?
 Насправді питання в тому, як догодити котам. Але почнемо з початку.
 
-@set PlayerName
 @input PlayerName summary:"Мене звуть"
 @stop
 
