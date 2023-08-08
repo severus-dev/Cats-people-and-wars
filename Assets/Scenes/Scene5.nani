@@ -80,12 +80,12 @@
         #ThisNight
             @printer Dialogue
             {PlayerName}: Допоможіть знайти вихід у реальний світ!
-            @goto WhyAreYouCrying
+            @goto .WhyAreYouCrying
 
         #IAmHuman
             @printer Dialogue
             {PlayerName}: Розумієте? Я людина, перетворена на кота!
-            @goto WhyAreYouCrying
+            @goto .WhyAreYouCrying
             
         #WhyAreYouCrying
 
@@ -129,7 +129,6 @@
 #OnWindow
 
 @printer Thoughts
-@char Chaos.def
 На підвіконня першого поверху виходить товстий сусідський кіт Жора.
 
 @choice "Або потойбічна сутність, схожа на нього?" goto:.AfterChaosEnters
@@ -142,6 +141,7 @@
 
 Наскільки безпечно може виглядати рудий товстий кіт в кімоно, яке не сходиться на ньому.
 
+@back Sc5_Outside2_1_TWOvasons
 Перебігаючи дорогу, я все ще сподіваюся на те, що отримаю зрозумілі відповіді на свої питання…
 
 А зблизька він зовсім не нагадує мені "торговця-рішалу"! Це геть інше створіння.
@@ -149,12 +149,11 @@
 @sfx HelloMeow
 
 @printer Chaos
-@char Chaos.smile
+@char Chaos.smile pos:75
 Жора: Привіт, друже! Давай сюди!
 
 @printer Thoughts
-@back Sc5_Outside2_1_TWOvasons
-@char Chaos.smile pos:75
+@char Chaos.smile 
 Мить — і ось ми вже разом, два коти на підвіконні першого поверху. 
 
 Сусідка з третього поверху не любить вуличних котів, то ж я сподіваюся, що вона мене не помітить і трошки ховаюся за вазоном.
