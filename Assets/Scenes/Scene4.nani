@@ -445,6 +445,9 @@
                 @sfx TwoFriendlyMeow
                 @toast "Досягнення: Винувате Задоволення"
 
+                @sfx TwoFriendlyMeow
+                @toast "Досягнення: Винувате Задоволення"
+
                 @printer Night
                 @char Night.smile
                 Ніч: Дякую.
