@@ -289,6 +289,9 @@
 @printer Night
 Ніч: Ну нарешті я тебе знайшла!
 
+@char Chaos.upset
+@char Gruzd.sad
+
 @char Day.misunderstood
 @printer Day
 День: Ніч? Що ти тут робиш?
@@ -296,6 +299,9 @@
 @char Night.angry
 @printer Night
 Ніч: А мені цікаво, що тут робиш ти, не сказавши мені геть нічого. Я тебе всюди шукала!
+
+@char Chaos.def
+@char Gruzd.def
 
 @char Day.blink
 @printer Day
@@ -305,6 +311,9 @@
 @printer Night
 Ніч: {PlayerName}, чим ви тут займаєтеся з цими котами? І що тобі вже наплів День?
 
+@char Chaos.tricky
+@char Gruzd.agressive
+
 @choice "День урятував мене від злого духу, відкинувши його до стіни" goto:.DaySavedMe
 @choice "Просто знайомлюся з сусідами." goto:.ChatingToNeighbours
 @stop
@@ -313,6 +322,9 @@
 
 	@sfx TwoFriendlyMeow
 	@toast "Досягнення: Прихильник Дня"
+
+	@char Chaos.def
+	@char Gruzd.def
 
         @char Night.interesting
         @printer Night
@@ -343,6 +355,9 @@
 
     #ChatingToNeighbours
 
+	@char Chaos.smile
+	@char Gruzd.smile
+
         @char Night.smile
         @printer Night
         Ніч: І що ці роніксоні тобі казали?
@@ -350,14 +365,23 @@
         @char Day.def
         @printer Day
         День: Так! Ми просто гуляли і спілкувалися тут з усіма. І чому {PlayerName} має тобі звітувати?
+
+	@char Chaos.sleepy
+	@char Gruzd.def
         
         @char Night.angry
         @printer Night
         Ніч: Ти знаєш, чому! Тому що наближається війна! І ми маємо діяти злагоджено, а не кому як на душу ляже!
+	
+	@char Chaos.def
+	@char Gruzd.sad
 
         @goto .SoMuchDeviations
 
 #SoMuchDeviations
+
+@char Chaos.tricky
+@char Gruzd.def
 
 @printer Thoughts
 Жора сідає по-турецьки і стає схожим на йога зі стажем. Тільки на дуже круглого йога. Круглого й шерстяного.
@@ -366,12 +390,17 @@
 @printer Chaos
 Хаос: Як у вас тут весело! Побуду поки що з вами.
 
+@char Gruzd.pockerface
+
 @char Day.misunderstood
 @printer Day
 День: Щось не так, {PlayerName}?
 
 @printer Dialogue
 {PlayerName}: Тут все не так.
+
+@char Chaos.def
+@char Gruzd.def
 
 @printer Dialogue
 {PlayerName}: Чому коти в халатах? Чому я не на роботі? Чому Жора сидить по-турецьки?
@@ -423,6 +452,11 @@
 @printer Counsil
 Радник: З вами говорить радник його Величності.
 
+@char Chaos.upset
+@char Gruzd.sad
+@char Day.misunderstood
+@char Night.angry
+
 @char Counsil.def
 @printer Counsil
 Радник: Його Величність попереджає, що у вас є лише два дні, щоб облишити свої підозрілі збори! Його Величність передає, що ви маєте жити тихо й не висовуватися!
@@ -443,6 +477,11 @@
 
 @printer Thoughts
 Образ зникає, і якийсь час всі мовчать.
+
+@char Chaos.def
+@char Gruzd.def
+@char Day.def
+@char Night.def
 
 @sfx Drool
 
