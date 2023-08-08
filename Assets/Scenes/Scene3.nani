@@ -6,13 +6,18 @@
 @back Sc3_Kitchen_1
 @bgm DayTheme
 
-@char Day.interesting 
+@printer Dialogue
+{PlayerName}: Можна тебе попросити... Ти не міг би...
 
+@char Day.interesting 
 @printer Day
 Мро-о-урррф!
 
+@printer Thoughts
+Е-е-е, само вже перестало.
+
 @printer Dialogue
-{PlayerName}: Привіт ще раз, День! Що-що ти сказав?
+{PlayerName}: Що-що ти сказав?
 
 @char Day.bitch
 @printer Day
