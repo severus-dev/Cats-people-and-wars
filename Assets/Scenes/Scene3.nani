@@ -774,7 +774,7 @@
     
     @set DayRelationships=DayRelationships+1
     @sfx Purr4
-    @toast "День вам вдячний за їжу."
+    @toast "День радіє вашим надлюдським здібностям."
 
     @char Day.def
     @printer Thoughts
