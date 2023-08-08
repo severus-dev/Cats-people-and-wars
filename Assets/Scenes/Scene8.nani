@@ -76,9 +76,12 @@
 @endIf
 
     #GruzdIsFriend
-   
+
+    @sfx TwoFriendlyMeow
+   @toast "Досягнення: Угода."
+
     @printer Thoughts
-    Груздь підстрибує до мене, і я, відсахнувшись від нього, чую, як він гаряче шепоче...
+    Груздь підстрибує до мене, і я, відсахнувшись від нього, чую, як він шепоче...
     
     @char Gruzd.surprised
     @printer Gruzd
@@ -173,6 +176,10 @@
     @stop
 
     #WhyDontBelieveDay
+
+	@sfx TwoFriendlyMeow
+	@toast "Досягнення: Екстракритичний Котик"
+
         @char Day.surprised
         @printer Day
         День: Тому що нажаль, в цьому світі панує зараза омани.
@@ -301,7 +308,10 @@
 @stop
 
     #DaySavedMe
-    
+
+	@sfx TwoFriendlyMeow
+	@toast "Досягнення: Прихильник Дня"
+
         @char Night.interesting
         @printer Night
         Ніч: Пфф… Дай вгадаю, врятував він тебе, коли небезпека вже минула?
@@ -474,6 +484,9 @@
 		    @goto .DayIsFriend
 
         @else
+		@sfx TwoFriendlyMeow
+		@toast "Досягнення: Жертва Злих Духів"
+
             @char Day.def
             @printer Day
             День: Я хочу від тебе лише того, чого прагне твоя душа в самому потаємному своєму єстві.
@@ -519,6 +532,9 @@
             @char Day.sleepy
             @printer Day
             День: Ну добре, добре! Скажу все як є, й роби з тим, що хочеш!
+
+		@sfx TwoFriendlyMeow
+		@toast "День розповідає вам правду."
 
             @char Day.def
             @printer Day
