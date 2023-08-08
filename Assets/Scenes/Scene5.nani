@@ -582,6 +582,9 @@
                 @printer Chaos
                 Хаос: Просто живи кожен день як останній, і ні про що не переймайся. Окрім власної смерті.
 
+                @sfx TwoFriendlyMeow
+                @toast "Досягнення: Кіт, який полюбив смерть"
+
                 @goto .IwantToTellYouSomething
 
 #IStartUnderstand
