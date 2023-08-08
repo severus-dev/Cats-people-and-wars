@@ -107,6 +107,9 @@
 	@set straw=true
 	@printer Dialogue
 	{PlayerName}: Точно, в мене під ліжком лежить пластикова трубочка! Нею можна було б зіштовхнути кльоцку вниз.
+
+	@sfx TwoFriendlyMeow
+	@toast "Досягнення: Необачний Котик"
 	
 	@printer Thoughts
 	Хоча, якщо я зустрінуся з моїми котами-душнілами, мої плани будуть зруйновані. Мабуть не треба туди йти
@@ -480,7 +483,7 @@
 
 #ClyockaGruzd
 
-@toast "Досягнення: Накорми Голодного"
+@toast "Досягнення: Нагодуй Голодного"
 @sfx TwoFriendlyMeow
 
 @printer Dialogue
@@ -614,7 +617,7 @@
 
 	#Touching
 
-		@toast "Досягнення: Чуттєвий Котик"
+		@toast "Досягнення: Чутливий Котик"
 		@sfx TwoFriendlyMeow
 
 		@printer Thoughts
