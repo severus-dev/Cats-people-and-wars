@@ -133,10 +133,10 @@
 @sfx QuieterPaws
 
 @printer Chaos
-@char Chaos.smile
 Хаос: Молодець, тобі це вдалося! Хутчіш спускайся!
 
 @printer Thoughts
+@back Sc5_Outside2_2_ONEvason
 Коли я зістрибую на землю, Хаос вже тримає кльоцку в зубах.
 
 @printer Chaos
@@ -480,7 +480,7 @@
 
 #ClyockaGruzd
 
-@toast: "Досягнення: Накорми Голодного"
+@toast "Досягнення: Накорми Голодного"
 @sfx TwoFriendlyMeow
 
 @printer Dialogue
@@ -556,9 +556,8 @@
 Хаос: Слухай, {PlayerName}, не знаю, як ти, але як на мене, тут надто спекотно. То ж я піду проведу сієсту у своєму домику в квартирі. Бувай.
 
 @printer Thoughts
+@hideChars
 І, не встигаю я щось відповісти, як Хаос зникає в своєму вікні.
-
-@hide Chaos
 
 @back BlackBg
 @bgm HrusdTheme
@@ -615,7 +614,7 @@
 
 	#Touching
 
-		@toast: "Досягнення: Чуттєвий Котик"
+		@toast "Досягнення: Чуттєвий Котик"
 		@sfx TwoFriendlyMeow
 
 		@printer Thoughts
