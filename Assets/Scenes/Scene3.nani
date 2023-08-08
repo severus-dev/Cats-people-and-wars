@@ -50,6 +50,8 @@
 
     #Scratch
         @set DayRelationships=DayRelationships+1
+	@sfx Purr4
+	@toast "Дню подобається ваша увага до його маленької котячої слабкості."
         
         @printer Thoughts
         День нахиляється, підставляє голову, і я, як можу, чухаю його лапкою за вушком. 
@@ -94,6 +96,10 @@
         @sfx Purr
         Кіт нахиляється, підставляє вуха, і я чухаю за ними лапкою.
 
+	@set DayRelationships=DayRelationships+1
+	@sfx Purr4
+	@toast "Дню подобається ваша увага до його маленької котячої слабкості."
+
         @printer Day
         @char Day.blink
         День: Це завжди так заспокоює! Мур-мур.
@@ -115,6 +121,10 @@
         @printer Day
         День: Так, будь ласка.
 
+	@set DayRelationships=DayRelationships+1
+	@sfx Purr4
+	@toast "Дню подобається ваша увага до його маленької котячої слабкості."
+
         @printer Thoughts
         @sfx Purr
         Кіт нахиляється, підставляє вуха, і я чухаю за ними лапкою.
@@ -129,6 +139,8 @@
 
     #Ears
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+    @toast "Дню подобається ваша увага до його маленької котячої слабкості."
         @printer Day
         @char Day.surprised
 		День: О-о, всім би котам таких розумних хазяїв, як ти! Ти знав, що "мро-о-урфф" на давньо-роніксонській означає "почухай мені вушка"?
@@ -357,7 +369,7 @@
 
 @char Day.interesting
 @printer Day
-День: Це все складно пояснити людині, яка не посвячена в шаманські таїнства. Але саме в цій формі ти можеш вивчити свої життєві уроки.
+День: Це все складно пояснити людині, яка не посвячена в шаманські таїнства. Але саме в цій формі ти можеш вивчити свої життєві уроки. Віриш мені?
 
 
 @choice "Не вірю." goto:.IDontBelieve
@@ -380,6 +392,8 @@
 
 #IBelieve
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+    @toast "День цінує вашу довіру."
 
     @char Day.interesting
     @printer Day
@@ -759,6 +773,8 @@
     Ура, тобі вдалося відкрити двері! Тепер знайди корм із лососем і зкинь його сюди.
     
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+    @toast "День вам вдячний за їжу."
 
     @char Day.def
     @printer Thoughts
@@ -854,6 +870,8 @@
     {PlayerName}: День! Допоможи мені, треба потягнути за обидва кінці мотузки одночасно!
 
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+    @toast "День радіє спільній роботі з вами."
 
     @sfx QuieterPaws
 
@@ -948,6 +966,8 @@
     {PlayerName}: Мра-мммау!
        
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+    @toast "День вражений вашими лінгвістичними здібностями."
 
     @sfx Purr1
 
@@ -963,6 +983,8 @@
     {PlayerName}: От би хтось придумав таке для людей! Увесь ресторанний бізнес пішов би коту під хвіст.
 
     @set DayRelationships=DayRelationships+1
+    @sfx Purr4
+	@toast "День у захваті від вашої ідеї для стартапу."
 
     @printer Day
     @char Day.meh
@@ -1026,6 +1048,8 @@
     #MyTotem
 
         @set DayRelationships=DayRelationships+1
+	@sfx Purr4
+	@toast "День відчуває взамємопорозуміння."
 
         @char Day.def
         @printer Thoughts
@@ -1086,6 +1110,8 @@
     #Delicacy
 
         @set DayRelationships=DayRelationships+1
+        @sfx Purr4
+	@toast "День вдячний вам за цей театр для навіженої істоти."
 
         @printer Day
         @char Day.meh
