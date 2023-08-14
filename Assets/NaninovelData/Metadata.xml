@@ -500,6 +500,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;Title&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Sc1_Kitchen&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -1077,6 +1081,10 @@
       &lt;/Resource&gt;
       &lt;Resource&gt;
         &lt;Path&gt;EnthusiasmMeow2&lt;/Path&gt;
+        &lt;Type&gt;Audio&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
+        &lt;Path&gt;ReincarnationTheme2&lt;/Path&gt;
         &lt;Type&gt;Audio&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;

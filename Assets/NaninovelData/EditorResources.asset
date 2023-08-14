@@ -257,6 +257,9 @@ MonoBehaviour:
     - name: Scene10
       pathPrefix: Scripts
       guid: 1b69f6604b7783f42bcd57a8a9dac9ec
+    - name: Title
+      pathPrefix: Scripts
+      guid: e476b19c5792f0e4b8da843501d0bc89
   - Id: Unlockables
     Resources:
     - name: CG/Sc1_Kitchen
@@ -715,6 +718,9 @@ MonoBehaviour:
     - name: EnthusiasmMeow2
       pathPrefix: Audio
       guid: f2564e768396e934a843f1bcc9d0267c
+    - name: ReincarnationTheme2
+      pathPrefix: Audio
+      guid: 06c9075ad5ef6034e849b0d9b8826950
   - Id: Characters/fcb7a21d-3f7f-44b9-b1b6-375a36c3dfda
     Resources:
     - name: def

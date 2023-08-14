@@ -22,7 +22,7 @@ MonoBehaviour:
   ScriptParser: Naninovel.ScriptParser, Elringus.Naninovel.Runtime, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   InitializationScript: 
-  TitleScript: 
+  TitleScript: Title
   StartGameScript: Scene1
   AutoAddScripts: 1
   HotReloadScripts: 1
