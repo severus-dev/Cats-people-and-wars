@@ -476,6 +476,7 @@
 День: Ні! Не вір оманливому аромату бутерброда.
 
 @hideChars
+
 @choice "Застрибнути на стіл."
 @stop
 
@@ -648,6 +649,9 @@
 
 #FeedDay
 @set dayFeeded=1
+
+@hideChars
+
 @printer Thoughts
 Шафка висить над стільницею. Можна застрибнути на стільницю. Встати на задні лапи і спробувати відкрити.
 
@@ -689,6 +693,8 @@
 @printer Thoughts
 Вставши на задні лапи, я успішно дістаю передніми до ручки на шафці. Стояти отак довго я не зможу — ці ноги зроблені не для вертикального положення.
 
+@hideChars
+
 @set onepawchoice=0
 
 #OneOrTwoPaws
@@ -729,6 +735,8 @@
 @char Day.surprised
 День: Ех…
 
+@hideChars
+
 @printer Thoughts
 Може, щось є підходяще в спальні? Там щось було… Під ліжком.
 
@@ -765,7 +773,7 @@
     @printer Thoughts
     Гумка для волосся! Цікава ідея… 
 
-    @hide Day
+    @hideChars
 
     @back BlackBg
     @sfx Scraping1
@@ -864,7 +872,7 @@
 	@printer Thoughts
     Мотузка! Цікава ідея…
 
-    @hide Day
+    @hideChars
 
     @back BlackBg
     @sfx Scraping1
