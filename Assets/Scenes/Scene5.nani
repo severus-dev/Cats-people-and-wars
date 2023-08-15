@@ -562,6 +562,9 @@
                 @char Chaos.upset
                 Хаос: Новачкам щастить, ось що я скажу.
 
+                @sfx TwoFriendlyMeow
+                @toast "Перемогти Хаоса"
+
                 @printer Chaos
                 @char Chaos.def
                 Хаос: А щодо мене, ну…
