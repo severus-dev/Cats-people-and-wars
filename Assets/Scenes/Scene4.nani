@@ -102,8 +102,6 @@
 
     День стрибає за м'ячиком і зникає.
 
-    @hide Day
-
     @goto .TellWhyYouHere
 
 #SupportNight
@@ -718,19 +716,8 @@
 
 #OthersAndCulture
 
-@choice "А інші тварини теж розумні?" goto:.OthersAnimals
 @choice "Якщо у вас є писемність і наука, то у вас є й музика?" goto:.Songs
 @stop
-
-#OthersAnimals
-    @printer Night
-    @char Night.despair
-    Ніч: Я думала, ти слухаєш мене уважно...
-
-    @printer Night
-    @char Night.def
-    На планеті Земля є тільки дві цивілізації: роніксонська та чолтінська.
-    @goto .DayToldYouALot
 
 #Songs
 
@@ -794,7 +781,7 @@
         @toast "Ніч радіє, що у вас є спільні погляди."
 
         @printer Dialogue
-        {PlayerName}: Мені здається, що утопії на серйозних щах це дуже розумна штука.
+        {PlayerName}: Мені здається, що утопії це дуже розумна штука.
 
         @printer Night
         @char Night.thinking
